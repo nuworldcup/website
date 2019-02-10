@@ -19,7 +19,7 @@ class Navbar extends Component {
 						</ul>
 						<ul className="navbar-nav">
 							<li className="nav-item">
-								<a className="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLScwADHgffAF8RpF5wYqKza_p9VD9ccGm4yiyGOFrJLPGiIQIw/viewform"> FIFA Registration </a>
+								<a className="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLScwADHgffAF8RpF5wYqKza_p9VD9ccGm4yiyGOFrJLPGiIQIw/viewform"> Futsal Registration </a>
 							</li>
 							<li className="nav-item">
 								<Link className="nav-link" to={'/FAQ'}> FAQ </Link>
