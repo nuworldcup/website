@@ -19,7 +19,7 @@ class Navbar extends Component {
 						</ul>
 						<ul className="navbar-nav">
 							<li className="nav-item">
-								<a className="nav-link"> Fifa Tournament Registration </a>
+								<a className="nav-link">Fifa Registration </a>
 							</li>
 							<li className="nav-item">
 								<Link className="nav-link" to={'/FAQ'}> FAQ </Link>
