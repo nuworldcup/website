@@ -7,7 +7,7 @@ class Navbar extends Component {
 			<nav className="navbar navbar-static-top navbar-expand-lg navbar-dark bg-dark" role="navigation">
 				<div className="container">
 					<Link className="navbar-brand" to={'/'}>
-						NU World Cup 2018
+						NU World Cup 2019
 					</Link>
 
 					<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="#navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,7 @@ class Navbar extends Component {
 						</ul>
 						<ul className="navbar-nav">
 							<li className="nav-item">
-								<a className="nav-link">Fifa Registration </a>
+								<a className="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdgEO9W_toUukW2vROQxxcxWcbKgg-Pxl_Eon3asLWp4SDqDg/viewform">Futsal Registration </a>
 							</li>
 							<li className="nav-item">
 								<Link className="nav-link" to={'/FAQ'}> FAQ </Link>
