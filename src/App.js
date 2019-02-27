@@ -6,7 +6,7 @@ import FAQ from './components/FAQ';
 import About from './components/About';
 import Gonzo from './components/Gonzo';
 import Sponsors from './components/Sponsors';
-import Gallery from './components/Gallery';
+import Gallery from './components/gallery/Gallery';
 import Contact from './components/Contact';
 import Info from './components/Info';
 
