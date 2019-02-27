@@ -19,6 +19,7 @@ import galleryTitle from '../../assets/img/titles/gallery-title.png';
 // https://hackernoon.com/improve-your-ux-by-dynamically-rendering-images-via-react-onload-393fd4d0d946
 // https://www.npmjs.com/package/react-medium-image-zoom
 
+// test for heroku
 
 class Gallery extends Component {
 	constructor(props) {
