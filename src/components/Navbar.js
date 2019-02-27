@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class Navbar extends Component {
     render() {
 		return (
-			<nav className="navbar navbar-static-top navbar-expand-lg navbar-dark bg-dark" role="navigation">
+			<nav className="navbar navbar-static-top navbar-expand-lg navbar-dark" role="navigation">
 				<div className="container">
 					<Link className="navbar-brand" to={'/'}>
 						NU World Cup 2019
@@ -32,6 +32,9 @@ class Navbar extends Component {
 							</li>
 							<li className="nav-item">
 								<Link className="nav-link" to={'/sponsors'}> Sponsors </Link>
+							</li>
+							<li className="nav-item">
+								<Link className="nav-link" to={'/gallery'}> Gallery </Link>
 							</li>
 						</ul>
 					</div>

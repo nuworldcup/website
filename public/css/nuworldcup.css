@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-/* Global Styles */
+/* GLOBAL STYLES */
 
 /* Navbar text #9d9d9d */
 
@@ -15,11 +15,22 @@ html {
     height: 100%;
 }
 
-/*.navbar .navbar-nav {
-    color: #9d9d9d;
-}*/
+body {
+    font-family: "Roboto" !important;
+}
 
-/*FOR IMAGE TITLES ON EACH PAGE*/
+/* NAVBAR */
+.navbar {
+    /* background: #343a40;*/
+    background: black;
+}
+
+/* FOOTER STYLES*/
+footer {
+    margin: 20px 0;
+}
+
+/*IMAGE TITLE STYLES (used with PageTitle component)*/
 .title-div {
     height: 25vh;
     min-height:100px;
@@ -30,23 +41,20 @@ html {
     max-height: 100% !important;
 }
 
-.sponsor-title-div {
-    height: 25vh;
-    min-height:100px;
-    margin-top: 5vh;
-}
-
-.sponsor-title {
+.small-title {
     max-height: 80% !important;
 }
 
 @media screen and (max-width: 750px) {
-    .sponsor-title {
+    .title {
         max-width: 400px !important;
-    }  
+    } 
+    .small-title {
+        max-width: 400px !important;
+    }
 }
 
-/*HOMEPAGE*/
+/*HOMEPAGE STYLES*/
 .home-logo-div {
     height: 80vh;
     min-height:300px;
@@ -71,7 +79,7 @@ html {
 
 
 
-/*FAQ PAGE*/
+/*FAQ PAGE STYLES*/
 .map-div {
     height: 45vh;
     min-height:300px;
@@ -87,9 +95,9 @@ html {
     margin: 20px;
 }
 
-/*ABOUT US*/
+/*ABOUT US STYLES*/
 
-/*SPONSORS*/
+/*SPONSORS STYLES*/
 .sponsor {
     margin-top: 20px;
     max-width: 100%;
@@ -114,7 +122,7 @@ a.no-logo:hover {
     text-decoration: none;
 }
 
-/*GONZO*/
+/*GONZO STYLES*/
 .infographic-div {
     height: 140vh;
     min-height:300px;
@@ -140,7 +148,7 @@ a.no-logo:hover {
     }
 }*/
 
-/*Tournament Info */
+/*TOURNAMENT INFO STYLES*/
 .tournament-info {
     margin-bottom: 5vh;
 }
@@ -287,43 +295,6 @@ a.no-logo:hover {
 
 
 
-/*Need to wrap the page with the wrap class, make sure margin and padding in wrap match min-height in footer*/
-/*Sticky Footer*/
-/* Wrapper for page content to push down footer */
-/*.wrap {
-  min-height: 100% !important;
-  height: auto !important;
-  height: 100% !important;
-  margin: 0 auto -10px !important;
-  padding: 0 0 10px !important;
-}*/
-
-/* Set the fixed height of the footer here */
-/*.footer {
-    margin-top: 30px !important;
-    min-height: 10px !important;
-}
-*/
-
-
-
-
-body {
-    /*padding-top: 50px;  Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    font-family: "Roboto" !important;
-}
-
-.black-background {
-  background-color: black;
-}
-
-#home {
-/*    background: url("../img/korea-japan-background.jpg") no-repeat center center fixed;*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
 #fifa-tourney {
     font-weight: bold;
@@ -361,25 +332,6 @@ iframe {
     height: 10488px; /*Specific for 2017 Wicked World Cup*/
 
 /*    position:relative;;*/
-}
-
-.navbar {
-    font-family: "Roboto";
-    /* background: rgb(35,31,32); */
-    /* For Mexico: */
-    background: black;
-}
-
-.navbar-nav {
-    float: right;
-    font-size: 14px;
-}
-
-.navbar-inverse .wicked:focus,
-.navbar-inverse .wicked:hover
-{
-    color:rgb(244,132,48);
-    background-color:transparent
 }
 
 .img-portfolio {
@@ -463,12 +415,6 @@ li.section-text {
     margin-left: 15px;
     line-height: 30px;
     list-style-image: url("../img/dash.png");
-}
-
-/* Footer Styles */
-
-footer {
-    margin: 20px 0;
 }
 
 /* Responsive Styles */

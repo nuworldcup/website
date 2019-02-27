@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
+import PageTitle from './PageTitle';
 import title from '../assets/img/titles/faq-title.png';
 import map from '../assets/img/map.png';
 
@@ -33,9 +34,10 @@ class FAQ extends Component {
 
 		return (
 			<div>
-        		<div className="d-flex justify-content-center title-div">
-            		<img className="title" src={title} alt={"FAQ"}/> 
-        		</div>
+        		<PageTitle 
+					image={title}
+					alternate="FAQ"
+				/>
 
 				<div className="container">
 					
