@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import ImageZoom from 'react-medium-image-zoom';
 import Footer from '../Footer';
+import LoadingImage from './LoadingImage';
+import Photo from './Photo';
 import PageTitle from '../PageTitle';
+import galleryTitle from '../../assets/img/titles/gallery-title.png';
+
 import pic1 from '../../assets/img/gallery/pic1.jpg';
 import pic2 from '../../assets/img/gallery/pic2.jpg';
 import pic3 from '../../assets/img/gallery/pic3.jpg';
@@ -14,62 +18,30 @@ import pic9 from '../../assets/img/gallery/pic9.jpg';
 import pic10 from '../../assets/img/gallery/pic10.jpg';
 import pic11 from '../../assets/img/gallery/pic11.jpg';
 import pic12 from '../../assets/img/gallery/pic12.jpg';
-import galleryTitle from '../../assets/img/titles/gallery-title.png';
+
 
 // https://hackernoon.com/improve-your-ux-by-dynamically-rendering-images-via-react-onload-393fd4d0d946
 // https://www.npmjs.com/package/react-medium-image-zoom
 
 // test for heroku
 
+var images = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10, pic11, pic12]
+
 class Gallery extends Component {
 	constructor(props) {
 		super(props);
-		this.getStyle = this.getStyle.bind(this);
+		this.state = { loadedItems: [] };
+		this.onLoad = this.onLoad.bind(this);
 	}
 
-	getStyle(image) {
-		if (image.height > image.width) {
-			return { height: '100%', width: 'auto', borderStyle: 'solid', borderWidth: '1px', marginTop: '3em'}
-		} else {
-			return { width: '100%', borderStyle: 'solid', borderWidth: '1px', marginTop: '3em'}
-		}
-	}
 
-    render() {
+	onLoad(feedItem) {
+    let updatedItems = this.state.loadedItems
+    updatedItems.push(feedItem)
+    this.setState({ loadedItems: updatedItems })
+  }
 
-		// var centerBox = {
-		// 	display: 'flex',
-		// 	justifyContent: 'center',
-		// 	alignItems: 'center',
-		// 	overflow: 'hidden',
-		// 	height: '16em',
-
-		// 	flexShrink: '0',
-		// 	minWidth: '100%',
-		// 	minHeight: 'auto'
-		// };
-
-
-		// style={centerBox}
-		var centerBox = {
-			height: '16em'
-		};
-
-		var colDiv = {
-			height: '100%'
-		}
-
-		var centerItem = {
-			objectFit: 'cover'
-		}
-
-		var spacing = {
-			marginBottom: '3em'
-		}
-		var spacingTop = {
-			marginTop: '3em',
-			marginBottom: '3em'
-		}
+  render() {
 
 		return (
 			<div>
@@ -78,7 +50,65 @@ class Gallery extends Component {
 					alternate="Gallery"
 				/>
 				<div className="container">
-					<div className="row">
+				{this.state.loadedItems.map((item, i) => {
+										if (i === 0) {
+											return (
+												<div className="row">
+													<Photo
+														image = {item}
+														alternate = { "img" + i }
+													/>
+											)
+										} else if (i-1%4 === 0) {
+											// It needs to open and it isn't the first
+											return (
+												<div className="row">
+													<Photo
+														image = {item}
+														alternate = {"img" + i}
+													/>
+											)
+										} else if (i%4 === 0) {
+											// it needs a closin
+											return (
+												<Photo
+														image = {item}
+														alternate = {"img" + i}
+													/>
+													</div>
+											)
+										} else {
+											// Just return the photo
+											return (
+												<Photo
+														image = {item}
+														alternate = {"img" + i}
+													/>
+											)
+										}
+									})}
+									{images.length > this.state.loadedItems.length &&
+										<LoadingImage />
+									}
+									<div className="hidden">
+										{this.props.images.map((item, i) =>
+											<img 
+												src={item} 
+												onLoad={this.onLoad(item)} 
+												key={i} />
+										)}
+									</div>
+				</div>
+				<Footer />
+			</div>
+	  );
+	}
+}
+
+export default Gallery;
+
+
+{/* <div className="row">
 						<div className="col-sm-3" style={colDiv}>
 							<ImageZoom
 								image={{
@@ -251,14 +281,4 @@ class Gallery extends Component {
 								}}
 							/>
 						</div>
-					</div>
-				</div>
-				<Footer />
-			</div>
-
-
-	    );
-	}
-}
-
-export default Gallery;
+					</div> */}

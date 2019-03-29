@@ -1,30 +1,45 @@
 import React, { Component } from 'react';
 import ImageZoom from 'react-medium-image-zoom';
-import pic1 from '../../assets/img/gallery/pic1.jpg';
 
 // https://hackernoon.com/improve-your-ux-by-dynamically-rendering-images-via-react-onload-393fd4d0d946
 // https://www.npmjs.com/package/react-medium-image-zoom
 
 
 class Gallery extends Component {
+    constructor(props) {
+        super(props)
+        this.getStyle = this.getStyle.bind(this);
+    }
+
+    getStyle(image) {
+		if (image.height > image.width) {
+			return { height: '100%', width: 'auto', borderStyle: 'solid', borderWidth: '1px', marginTop: '3em'}
+		} else {
+			return { width: '100%', borderStyle: 'solid', borderWidth: '1px', marginTop: '3em'}
+		}
+	}
+
     render() {
+
+        var colDiv = {
+			height: '100%'
+        }
+        
 		return (
-			<div>
-				<div> GALLERY </div>
+            <div className="col-sm-3" style={colDiv}>
 				<ImageZoom
                     image={{
-                        src: pic1,
-                        alt: 'The first Image',
+                        src: this.props.image,
+                        alt: this.props.alternate,
                         className: 'img',
-                        style: { width: '50em' }
+                        style: this.getStyle(this.props.image)
                     }}
                     zoomImage={{
-                        src: pic1,
+                        src: this.props.image,
                         alt: 'Same Image but largened'
                     }}
 			    />
-			</div>
-
+            </div>
 	    );
 	}
 }
