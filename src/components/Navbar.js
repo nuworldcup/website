@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class Navbar extends Component {
     render() {
 		return (
-			<nav className="navbar navbar-static-top navbar-expand-lg navbar-dark bg-dark" role="navigation">
+			<nav className="navbar navbar-static-top navbar-expand-lg navbar-dark" role="navigation">
 				<div className="container">
 					<Link className="navbar-brand" to={'/'}>
 						NU World Cup 2019
