@@ -8,7 +8,7 @@ class Footer extends Component {
                 <footer>
                     <div className="row">
                         <div className="col-lg-12">
-                            <p>Copyright &copy; NU World Cup 2018</p>
+                            <p>Copyright &copy; NU World Cup 2019</p>
                         </div>
                     </div>
                 </footer>

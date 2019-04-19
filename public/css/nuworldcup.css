@@ -48,9 +48,9 @@ html {
 
 /*HOMEPAGE*/
 .home-logo-div {
-    height: 80vh;
+    height: 60vh;
     min-height:300px;
-    margin-top: 5vh;
+    margin-top: 10vh;
     margin-bottom: 5vh;
 }
 
