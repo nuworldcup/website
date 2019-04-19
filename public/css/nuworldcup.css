@@ -367,7 +367,8 @@ iframe {
     font-family: "Roboto";
     /* background: rgb(35,31,32); */
     /* For Mexico: */
-    background: black;
+    /* background: black; */
+    background: #24292e;
 }
 
 .navbar-nav {
