@@ -8,10 +8,15 @@ import nigeria from '../assets/img/nigerialogo.png';
 class Homepage extends Component {
     render() {
 		return (
-			<div className="d-flex justify-content-center home-logo-div">
-				<img className="home-logo" src={nigeria} alt={"Northwestern World Cup 2019"}/>
+			<div> 
+				<div className="d-flex justify-content-center home-logo-div">
+					<img className="home-logo" src={nigeria} alt={"Northwestern World Cup 2019"}/>
+				</div>
+				<div className="d-flex justify-content-center">
+					<a className="register-here" href="https://docs.google.com/forms/d/e/1FAIpQLSdxveGnwLBgFJACCON0JG8T2VRE0OG6TuB90BA0RAmq1wt2Qw/viewform" > Register Here! </a>
+				</div>
 			</div>
-	    );
+			);
 	}
 }
 
