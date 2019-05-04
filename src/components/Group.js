@@ -12,7 +12,7 @@ class Group extends Component {
 			teams: {"team1": this.props.team1, "team2": this.props.team2, "team3": this.props.team3, "team4": this.props.team4},
 			points: {"team1": 0, "team2": 0, "team3": 0, "team4": 0},
 			flags: {"team1": "flag-icon-", "team2": "flag-icon-", "team3": "flag-icon-", "team4": "flag-icon-"},
-	        tournament: "co-rec"
+	    tournament: this.props.tournament
   		};
     }
 

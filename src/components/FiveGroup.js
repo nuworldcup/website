@@ -20,10 +20,12 @@ class FiveGroup extends Component {
     componentDidMount() {
     // real endpoint: http://rojaswestall.com/api/points
     // for testing: http://localhost:4000/api/points
-    // https://nuwc-server.herokuapp.com/api/points
+		// https://nuwc-server.herokuapp.com/api/points
 
     // Need to replace spaces with - because teams with spaces use dashes in the database to accomodate for slack
-    	var teamArr = ["team1", "team2", "team3", "team4", "team5"];
+			var teamArr = ["team1", "team2", "team3", "team4", "team5"];
+			
+			console.log(this.state.tournament)
 	    	
     	teamArr.forEach((team) => {
     		var pointsCopy = this.state.points;
@@ -35,6 +37,7 @@ class FiveGroup extends Component {
 	        		tournament: this.state.tournament
 	      		}
 			}).then((res) => {
+				console.log(res)
 				var dbdata = res.data;
 				if (dbdata.name === this.state.teams[team].replace(/\s+/g, '-')) {
 					pointsCopy[team] = dbdata.points;

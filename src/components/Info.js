@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import KnockoutStage from './KnockoutStage';
 import GroupStage from './GroupStage';
 import Footer from './Footer';
-import logo from '../assets/img/nuwcmxwhite.png';
+import logo from '../assets/img/nigerialogo.png';
 
 class Info extends Component {
     render() {
