@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import GroupScores from './GroupScores';
 import WomenGroup from './WomenGroup';
 import Group from './Group';
+import ThreeGroup from './ThreeGroup';
+import FiveGroup from './FiveGroup';
 
 class GroupStage extends Component {
     render() {
