@@ -2,17 +2,17 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import classnames from 'classnames';
 
-class Group extends Component {
+class FiveGroup extends Component {
 
 	constructor(props) {
 		super(props);
 
 		this.state = {
 			group: this.props.group,
-			teams: {"team1": this.props.team1, "team2": this.props.team2, "team3": this.props.team3, "team4": this.props.team4},
-			points: {"team1": 0, "team2": 0, "team3": 0, "team4": 0},
-			flags: {"team1": "flag-icon-", "team2": "flag-icon-", "team3": "flag-icon-", "team4": "flag-icon-"},
-	    tournament: this.props.tournament
+			teams: {"team1": this.props.team1, "team2": this.props.team2, "team3": this.props.team3},
+			points: {"team1": 0, "team2": 0, "team3": 0},
+			flags: {"team1": "flag-icon-", "team2": "flag-icon-", "team3": "flag-icon-"},
+	        tournament: this.props.tournament
   		};
     }
 
@@ -23,7 +23,7 @@ class Group extends Component {
     // https://nuwc-server.herokuapp.com/api/points
 
     // Need to replace spaces with - because teams with spaces use dashes in the database to accomodate for slack
-    	var teamArr = ["team1", "team2", "team3", "team4"];
+    	var teamArr = ["team1", "team2", "team3"];
 	    	
     	teamArr.forEach((team) => {
     		var pointsCopy = this.state.points;
@@ -85,15 +85,6 @@ class Group extends Component {
 								{this.state.points["team3"]}
 							</td>
 						</tr>
-						<tr>
-							<td className="table-body">
-								<span className={classnames("flag-icon", this.state.flags["team4"], "group-flag")}></span>
-								{this.state.teams["team4"]}
-							</td>
-							<td className="points">
-								{this.state.points["team4"]}
-							</td>
-						</tr>
 					</tbody>
 				</table>
 			</div>
@@ -101,7 +92,7 @@ class Group extends Component {
 	}
 }
 
-export default Group;
+export default FiveGroup;
 
 
 
