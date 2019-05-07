@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 // import logomx from '../assets/img/nuwcmxwhite.png';
 // import wickedlogo from '../assets/img/wicked-cup/wickedcupbackground.jpg';
 // import winterfs from '../assets/img/futsal-tourney/nuwcwinterfutsal.png';
-import nigeria from '../assets/img/nigerialogo.png';
+import nigeria from '../assets/img/nuwcfire.png';
 
 class Homepage extends Component {
     render() {
