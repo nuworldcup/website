@@ -13,7 +13,7 @@ class Homepage extends Component {
 					<img className="home-logo" src={nigeria} alt={"Northwestern World Cup 2019"}/>
 				</div>
 				<div className="d-flex justify-content-center">
-					<a className="register-here" href="https://docs.google.com/forms/d/e/1FAIpQLSdxveGnwLBgFJACCON0JG8T2VRE0OG6TuB90BA0RAmq1wt2Qw/viewform" > Register Here! </a>
+					<a className="register-here" href="https://docs.google.com/forms/d/13aTB9dyjttfU8Gg75MddyTzrX9Bin9tByaqDYoKmzC4/viewform?ts=5cc37e31&edit_requested=true&fbclid=IwAR2f2hbRmOlc6lChTVaq6-ehdogZgKBUVZt3PbpE0EWkrMtaZY4Jrg0teJA" > Get Chicago Fire Tickets! </a>
 				</div>
 			</div>
 			);
