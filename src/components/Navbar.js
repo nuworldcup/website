@@ -24,9 +24,7 @@ class Navbar extends Component {
 							<li className="nav-item">
 								<Link className="nav-link" to={'/FAQ'}> FAQ </Link>
 							</li>
-					//		<li className="nav-item">
-					//			<Link className="nav-link" to={'/tournament-info'}> Tournament Information </Link>
-					//		</li>
+
 							<li className="nav-item">
 								<Link className="nav-link" to={'/gonzo'}> Gonzo Soccer </Link>
 							</li>
