@@ -22,7 +22,7 @@ class Navbar extends Component {
 								<Link className="nav-link" to={'/About'}> About </Link>
 							</li>					
 							<li className="nav-item">
-								<Link className="nav-link" to={'/gonzo'}> Gonzo Soccer </Link>
+								<Link className="nav-link" to={'/gonzo'}> Gonzo </Link>
 							</li>		
 							<li className="nav-item">
 								<Link className="nav-link" to={'/FAQ'}> FAQ </Link>
@@ -30,9 +30,11 @@ class Navbar extends Component {
 							<li className="nav-item">
 								<Link className="nav-link" to={'/Gallery'}> Gallery </Link>
 							</li>
-
 							 <li className="nav-item">
 							 	<Link className="nav-link" to={'/sponsors'}> Sponsors </Link>
+							 </li>
+							 <li className="nav-item">
+							 	<Link className="nav-link" to={'/Contact'}> Join Us </Link>
 							 </li>
 						</ul>
 					</div>

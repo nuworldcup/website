@@ -15,7 +15,10 @@ class Gonzo extends Component {
             		<img className="infographic" src={infographic} alt={"Infographic"}/> 
         		</div>
 
-				<Footer />
+				<div className="d-flex justify-content-center">
+            		<p className="lead"> Check them out <a href="http://www.gonzosoccer.org/en/">here! </a></p>
+        		</div>
+
 			</div>
 	    );
 	}
