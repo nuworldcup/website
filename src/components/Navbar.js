@@ -7,7 +7,7 @@ class Navbar extends Component {
 			<nav className="navbar navbar-static-top navbar-expand-lg navbar-dark" role="navigation">
 				<div className="container">
 					<Link className="navbar-brand" to={'/'}>
-						NU World Cup 2019 test test
+						NU World Cup 2019
 					</Link>
 
 					<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="#navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
