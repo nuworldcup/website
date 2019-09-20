@@ -29,7 +29,7 @@ class FAQ extends Component {
 		var twoBodies = {
 	  		borderBottom: '1px solid',
 	  		borderColor: '#ddd'
-		};
+		}; 
 
 		return (
 			<div>
@@ -41,10 +41,7 @@ class FAQ extends Component {
 					
 					<div id="accordion">
 
-						<div className="faqHeader">Field Map</div>
-						<div className="d-flex justify-content-center map-div">
-            				<img className="field-map" src={map} alt={"map"}/> 
-        				</div>
+
 
 						<div className="faqHeader">Registration</div>
 
