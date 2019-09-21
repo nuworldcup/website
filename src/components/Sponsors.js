@@ -14,7 +14,7 @@ class Sponsors extends Component {
 	        		<img className="sponsor-title" src={title} alt={"SPONSORS"}/> 
 	    		</div>
 	    		<div className="d-flex justify-content-center">
-	    			<p className="lead"> NU World Cup is made possible by generous contributions from our fantastic sponsors:</p>
+	    			<p className="lead"> NU World Cup is made possible by generous contributions from our sponsors. Past sponsors include:</p>
     			</div>
     			<div className="row justify-content-center">
 	            	<div className="col-7 img-portfolio">
@@ -30,15 +30,13 @@ class Sponsors extends Component {
 		                </a>
 		            </div>
 		        </div>
-		        <div className="row justify-content-center">
+		        <div className="row">
 	            	<div className="col-7 img-portfolio">
 		                <a target="_blank" href="https://northwesternpha.com/">
 		                    <img className="img-responsive img-hover sponsor" src={pha} alt="" />
 		                </a>
 		            </div>
-		        </div>
-		        <div className="row justify-content-center">
-	            	<div className="col-7 img-portfolio">
+	            	<div className="col-20 img-portfolio">
 		                <a target="_blank" href="https://loopnearby.com/">
 		                    <img className="img-responsive img-hover sponsor" src={loop} alt="" />
 		                </a>

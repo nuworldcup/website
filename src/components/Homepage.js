@@ -13,7 +13,7 @@ class Homepage extends Component {
 					<img className="home-logo" src={nigeria} alt={"Northwestern World Cup 2019"}/>
 				</div>
 				<div className="d-flex justify-content-center">
-				<p className="lead">Community. Philanthropy. Soccer. </p>
+					<p className="lead">Community. Philanthropy. Soccer. </p>
 				</div>
 
 

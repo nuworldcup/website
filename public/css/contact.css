@@ -2,3 +2,17 @@
 	font-size: 100px;
 	text-align: center;
 }
+
+.contactimg {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 55%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align: middle;
+}
+
+.toptitle {
+	margin-top: 20px;
+}

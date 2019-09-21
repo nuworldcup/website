@@ -113,29 +113,7 @@ class FAQ extends Component {
 							</div>
 						</div>
 
-						<div className="card" style={cardStyle}>
-							<div className="card-header btn btn-light text-left" style={cardResponsive} id="headingSeven" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
-								Can players switch teams?
-							</div>
-							<div id="collapseSeven" className="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
-								<div className="card-body">
-									Team switches will be permitted until the <strong>first week of April</strong>.
-								</div>
-							</div>
-						</div>
 
-						<div className="card" style={cardStyle}>
-							<div className="card-header btn btn-light text-left" style={cardResponsive} id="headingTwelve" data-parent="#accordion" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="true" aria-controls="collapseThirteen">
-								<div >
-									What is the tournament structure?
-								</div>
-							</div>
-							<div id="collapseThirteen" className="collapse" aria-labelledby="headingThirteen" data-parent="#accordion">
-								<div className="card-body">
-									The Co-Ed tournament will be 40 teams divided into 10 groups. There will be group stages and then elimination bracket, just like FIFA World Cup. The Women's tournament will have 8 teams split into 2 groups.
-								</div>
-							</div>
-						</div>
 					</div>
 				</div>
 
