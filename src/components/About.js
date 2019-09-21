@@ -11,7 +11,16 @@ class About extends Component {
             		<img className="title" src={title} alt={"ABOUT"}/> 
         		</div>
 	    		<div className="d-flex justify-content-center">
-	    			<p className="lead"> NU World Cup aims to spread the love of soccer across Northwestern's campus.</p>
+	    			<p className="lead toptitle"> NU World Cup is the largest student-run soccer organization at Northwestern. </p>
+    			</div>
+	    		<div className="d-flex justify-content-center">
+	    			<p className="lead">We aim to bring people together through a common passion for the sport. </p>
+    			</div>
+	    		<div className="d-flex justify-content-center">
+	    			<p className="lead">Every year we host tournaments, cultural events, match day outings, and more! </p>
+    			</div>
+	    		<div className="d-flex justify-content-center">
+	    			<p className="lead">NU World Cup also works with with Gonzo Soccer: a Chicago non profit that empowers girls through soccer.</p>
     			</div>
 			</div>
 

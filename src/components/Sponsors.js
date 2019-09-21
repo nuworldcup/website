@@ -47,12 +47,12 @@ class Sponsors extends Component {
 		                </a>
 		            </div>
 	            	<div className="img-portfolio">
-		                <a target="_blank" href="https://northwesternpha.com/">
+		                <a target="_blank" href="https://www.musclemilk.com/">
 		                    <img className="img-responsive img-hover sponsor" src={musclemilk} alt="" />
 		                </a>
 		            </div>
 	            	<div className="img-portfolio">
-		                <a target="_blank" href="https://northwesternpha.com/">
+		                <a target="_blank" href="https://www.qatarairways.com/">
 		                    <img className="img-responsive img-hover sponsor" src={qatar} alt="" />
 		                </a>
 		            </div>
@@ -67,12 +67,12 @@ class Sponsors extends Component {
 		                </a>
 		            </div>
 	            	<div className="img-portfolio">
-		                <a target="_blank" href="http://www.northwestern.edu/womenscenter/">
+		                <a target="_blank" href="https://www.subway.com/en-US">
 		                    <img className="img-responsive img-hover sponsor" src={subway} alt="" />
 		                </a>
 		            </div>
 	            	<div className="img-portfolio">
-		                <a target="_blank" href="http://www.northwestern.edu/womenscenter/">
+		                <a target="_blank" href="https://www.chicago-fire.com/">
 		                    <img className="img-responsive img-hover sponsor" src={fire} alt="" />
 		                </a>
 		            </div>
