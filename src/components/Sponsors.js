@@ -5,6 +5,14 @@ import womenscenter from '../assets/img/sponsors/2018/womens-center.png';
 import president from '../assets/img/sponsors/2018/president.png';
 import loop from '../assets/img/sponsors/2018/loop.png';
 import pha from '../assets/img/sponsors/2018/pha.jpg';
+import monster from '../assets/img/sponsors/2016/monster.jpg';
+import musclemilk from '../assets/img/sponsors/old/musclemilk.jpg';
+import qatar from '../assets/img/sponsors/old/qatar.jpg';
+import subway from '../assets/img/sponsors/2016/subway.jpg';
+import fire from '../assets/img/sponsors/old/chicagofire.png';
+
+
+
 
 class Sponsors extends Component {
     render() {
@@ -16,36 +24,56 @@ class Sponsors extends Component {
 	    		<div className="d-flex justify-content-center">
 	    			<p className="lead"> NU World Cup is made possible by generous contributions from our sponsors. Past sponsors include:</p>
     			</div>
-    			<div className="row justify-content-center">
-	            	<div className="col-7 img-portfolio">
-		                <a target="_blank" href="https://www.northwestern.edu/president/">
-		                    <img className="img-responsive img-hover sponsor" src={president} alt="" />
-		                </a>
-		            </div>
-		        </div>
-    			<div className="row justify-content-center">
-	            	<div className="col-7 img-portfolio">
-		                <a target="_blank" href="http://www.northwestern.edu/womenscenter/">
-		                    <img className="img-responsive img-hover sponsor" src={womenscenter} alt="" />
-		                </a>
-		            </div>
-		        </div>
-		        <div className="row">
-	            	<div className="col-7 img-portfolio">
-		                <a target="_blank" href="https://northwesternpha.com/">
-		                    <img className="img-responsive img-hover sponsor" src={pha} alt="" />
-		                </a>
-		            </div>
-	            	<div className="col-20 img-portfolio">
+		        <div className="row justify-content-center">
+
+	            	<div className="img-portfolio">
 		                <a target="_blank" href="https://loopnearby.com/">
 		                    <img className="img-responsive img-hover sponsor" src={loop} alt="" />
 		                </a>
 		            </div>
-		        </div>
-		        <div className="row justify-content-center">
-	            	<div className="col-7 img-portfolio no-logo-div">
+	            	<div className="img-portfolio">
+		                <a target="_blank" href="https://loopnearby.com/">
+		                    <img className="img-responsive img-hover sponsor" src={monster} alt="" />
+		                </a>
+		            </div>
+	            	<div className="img-portfolio">
+		                <a target="_blank" href="https://www.northwestern.edu/president/">
+		                    <img className="img-responsive img-hover sponsor" src={president} alt="" />
+		                </a>
+		            </div>
+	            	<div className="img-portfolio">
+		                <a target="_blank" href="https://northwesternpha.com/">
+		                    <img className="img-responsive img-hover sponsor" src={pha} alt="" />
+		                </a>
+		            </div>
+	            	<div className="img-portfolio">
+		                <a target="_blank" href="https://northwesternpha.com/">
+		                    <img className="img-responsive img-hover sponsor" src={musclemilk} alt="" />
+		                </a>
+		            </div>
+	            	<div className="img-portfolio">
+		                <a target="_blank" href="https://northwesternpha.com/">
+		                    <img className="img-responsive img-hover sponsor" src={qatar} alt="" />
+		                </a>
+		            </div>
+	            	<div className="img-portfolio">
+		                <a target="_blank" href="http://www.northwestern.edu/womenscenter/">
+		                    <img className="img-responsive img-hover sponsor" src={womenscenter} alt="" />
+		                </a>
+		            </div>
+	            	<div className="img-portfolio no-logo-div">
 		                <a target="_blank" className="no-logo" href="https://www.internationalstudies.northwestern.edu/">
 		  		            International Studies Program
+		                </a>
+		            </div>
+	            	<div className="img-portfolio">
+		                <a target="_blank" href="http://www.northwestern.edu/womenscenter/">
+		                    <img className="img-responsive img-hover sponsor" src={subway} alt="" />
+		                </a>
+		            </div>
+	            	<div className="img-portfolio">
+		                <a target="_blank" href="http://www.northwestern.edu/womenscenter/">
+		                    <img className="img-responsive img-hover sponsor" src={fire} alt="" />
 		                </a>
 		            </div>
 		        </div>
