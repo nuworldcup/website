@@ -10,6 +10,11 @@ import musclemilk from '../assets/img/sponsors/old/musclemilk.jpg';
 import qatar from '../assets/img/sponsors/old/qatar.jpg';
 import subway from '../assets/img/sponsors/2016/subway.jpg';
 import fire from '../assets/img/sponsors/old/chicagofire.png';
+import redstars from '../assets/img/sponsors/2019/redstars.png';
+import asa from '../assets/img/sponsors/2019/asa.png';
+import kind from '../assets/img/sponsors/2016/kind.jpg';
+
+
 
 
 
@@ -32,7 +37,7 @@ class Sponsors extends Component {
 		                </a>
 		            </div>
 	            	<div className="img-portfolio">
-		                <a target="_blank" href="https://loopnearby.com/">
+		                <a target="_blank" href="https://www.monsterenergy.com/in/en">
 		                    <img className="img-responsive img-hover sponsor" src={monster} alt="" />
 		                </a>
 		            </div>
@@ -76,6 +81,21 @@ class Sponsors extends Component {
 		                    <img className="img-responsive img-hover sponsor" src={fire} alt="" />
 		                </a>
 		            </div>
+	            	<div className="img-portfolio">
+		                <a target="_blank" href="http://chicagoredstars.com/">
+		                    <img className="img-responsive img-hover sponsor" src={redstars} alt="" />
+		                </a>
+		            </div>
+	            	<div className="img-portfolio">
+		                <a target="_blank" href="https://www.facebook.com/ASANorthwestern/?ref=page_internal">
+		                    <img className="img-responsive img-hover sponsor" src={asa} alt="" />
+		                </a>
+		            </div>	
+	            	<div className="img-portfolio">
+		                <a target="_blank" href="https://www.kindsnacks.com/">
+		                    <img className="img-responsive img-hover sponsor" src={kind} alt="" />
+		                </a>
+		            </div>			            	            
 		        </div>
 		        
 

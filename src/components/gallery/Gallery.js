@@ -14,6 +14,10 @@ import pic9 from '../../assets/img/gallery/pic9.jpg';
 import pic10 from '../../assets/img/gallery/pic10.jpg';
 import pic11 from '../../assets/img/gallery/pic11.jpg';
 import pic12 from '../../assets/img/gallery/pic12.jpg';
+import pic13 from '../../assets/img/gallery/pic13.jpg';
+import pic14 from '../../assets/img/gallery/pic14.jpg';
+import pic15 from '../../assets/img/gallery/pic15.jpg';
+import pic16 from '../../assets/img/gallery/pic16.jpg';
 import galleryTitle from '../../assets/img/titles/gallery-title.png';
 
 // https://hackernoon.com/improve-your-ux-by-dynamically-rendering-images-via-react-onload-393fd4d0d946
@@ -79,7 +83,7 @@ class Gallery extends Component {
 				/>
 				<div className="container">
 					<div className="row">
-						<div className="col-sm-3" style={colDiv}>
+						<div className="col-sm-3 galleryimg" style={colDiv}>
 							<ImageZoom
 								image={{
 									src: pic1,
@@ -251,6 +255,62 @@ class Gallery extends Component {
 								}}
 							/>
 						</div>
+						<div className="col-sm-3" style={colDiv}>
+							<ImageZoom
+								image={{
+									src: pic13,
+									alt: 'Golden Gate Bridge',
+									className: 'img',
+									style: this.getStyle(pic13)
+									}}
+								zoomImage={{
+									src: pic13,
+									alt: 'Same Image but largened'
+								}}
+							/>
+						</div>
+						<div className="col-sm-3" style={colDiv}>
+							<ImageZoom
+								image={{
+									src: pic14,
+									alt: 'Golden Gate Bridge',
+									className: 'img',
+									style: this.getStyle(pic14)
+									}}
+								zoomImage={{
+									src: pic14,
+									alt: 'Same Image but largened'
+								}}
+							/>
+						</div>
+						<div className="col-sm-3" style={colDiv}>
+							<ImageZoom
+								image={{
+									src: pic15,
+									alt: 'Golden Gate Bridge',
+									className: 'img',
+									style: this.getStyle(pic15)
+									}}
+								zoomImage={{
+									src: pic15,
+									alt: 'Same Image but largened'
+								}}
+							/>
+						</div>
+						<div className="col-sm-3" style={colDiv}>
+							<ImageZoom
+								image={{
+									src: pic16,
+									alt: 'Golden Gate Bridge',
+									className: 'img',
+									style: this.getStyle(pic16)
+									}}
+								zoomImage={{
+									src: pic16,
+									alt: 'Same Image but largened'
+								}}
+							/>
+						</div>						
 					</div>
 				</div>
 				<Footer />
