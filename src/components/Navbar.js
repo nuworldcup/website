@@ -34,7 +34,7 @@ class Navbar extends Component {
 							 	<Link className="nav-link" to={'/sponsors'}> Sponsors </Link>
 							 </li>
 							 <li className="nav-item">
-							 	<Link className="nav-link" to={'/Contact'}> Join Us </Link>
+							 	<Link className="nav-link" to={'/Contact'}> Contact Us </Link>
 							 </li>
 						</ul>
 					</div>
