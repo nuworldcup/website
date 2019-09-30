@@ -30,9 +30,8 @@ class Homepage extends Component {
             frameborder="0"
             marginheight="0"
             marginwidth="0"
-          >
-            Loading…
-          </iframe>
+
+          ></iframe>
         </div>
       </div>
     );
