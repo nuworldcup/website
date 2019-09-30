@@ -9,10 +9,10 @@
 /* Navbar text #9d9d9d */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300);
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300, 700);
 
 html {
-    height: 100%;
+  height: 100%;
 }
 
 /*.navbar .navbar-nav {
@@ -23,116 +23,114 @@ html {
 
 /*FOR IMAGE TITLES ON EACH PAGE*/
 .title-div {
-    height: 25vh;
-    min-height:100px;
-    margin-top: 5vh;
+  height: 25vh;
+  min-height: 100px;
+  margin-top: 5vh;
 }
 
 .title {
-    max-height: 100% !important;
+  max-height: 100% !important;
 }
 
 .sponsor-title-div {
-    height: 25vh;
-    min-height:100px;
-    margin-top: 5vh;
+  height: 25vh;
+  min-height: 100px;
+  margin-top: 5vh;
 }
 
 .sponsor-title {
-    max-height: 80% !important;
+  max-height: 80% !important;
 }
 
 @media screen and (max-width: 750px) {
-    .sponsor-title {
-        max-width: 400px !important;
-    }  
+  .sponsor-title {
+    max-width: 400px !important;
+  }
 }
 
 /*HOMEPAGE*/
 .home-logo-div {
-    height: 60vh;
-    min-height:300px;
-    margin-top: 10vh;
-    margin-bottom: 5vh;
+  height: 60vh;
+  min-height: 300px;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
 }
 
 .home-logo {
-    max-height: 100%;
-    max-width: 100%;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .wicked-background-div {
-    height: 100vh;
+  height: 100vh;
 }
 
 .wicked-background {
-    /*max-height: 100%;*/
-    /*max-width: 100%;*/
-    width: 100%;
+  /*max-height: 100%;*/
+  /*max-width: 100%;*/
+  width: 100%;
 }
 
 .register-here {
-    font-size: 20px;
-    color: black;
-    text-decoration: underline;
-    font-weight: bold;
+  font-size: 20px;
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
 }
-
-
 
 /*FAQ PAGE*/
 .map-div {
-    height: 45vh;
-    min-height:300px;
-    margin-top: 5vh;
+  height: 45vh;
+  min-height: 300px;
+  margin-top: 5vh;
 }
 
 .field-map {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .faqHeader {
-    font-size: 27px;
-    margin: 20px;
+  font-size: 27px;
+  margin: 20px;
 }
 
 /*ABOUT US*/
 
 /*SPONSORS*/
 .sponsor {
-    margin-top: 20px;
-    max-width: 500px;
-    max-height: 200px;
-    display: block;
-    margin-left: 20px;
-    margin-right: 20px;
+  margin-top: 20px;
+  max-width: 500px;
+  max-height: 200px;
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .no-logo-div {
-    text-align: center;
+  text-align: center;
 }
 
 .no-logo {
-    text-decoration: none;
-    font-size: 2em;
-    color: rgb(91, 59, 140) !important;
-    font-weight: 300;
+  text-decoration: none;
+  font-size: 2em;
+  color: rgb(91, 59, 140) !important;
+  font-weight: 300;
 }
 a.no-logo:hover {
-    color: rgb(131, 110, 170) !important;
-    text-decoration: none;
+  color: rgb(131, 110, 170) !important;
+  text-decoration: none;
 }
 
 /*GONZO*/
 .infographic-div {
-    height: 140vh;
-    min-height:300px;
-    margin-top: 5vh;
+  height: 140vh;
+  min-height: 300px;
+  margin-top: 5vh;
 }
 
 .infographic {
-    max-height: 100%;
-    max-width: 100%;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 /*Need fix for super small, long screen*/
@@ -151,150 +149,147 @@ a.no-logo:hover {
 
 /*Tournament Info */
 .tournament-info {
-    margin-bottom: 5vh;
+  margin-bottom: 5vh;
 }
 
 .groupstage-title {
-    font-size: 35px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    font-weight: 700;
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-weight: 700;
 }
 
 .group-table {
-    margin-top:20px;
+  margin-top: 20px;
 }
 
 .group-flag {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .group-header {
-    font-size: 27px;
-    margin-bottom: 15px;
+  font-size: 27px;
+  margin-bottom: 15px;
 }
 
 .group {
-    margin-top: 5vh;
+  margin-top: 5vh;
 }
 
 .fixture-row {
-    font-size: 20px;
-    margin-bottom: 30px;
-    text-align: center;
-    font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 300;
 }
 
 .fixture-group-title {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .fixture-score {
-    font-weight: bold;
-    font-size: 26px;
+  font-weight: bold;
+  font-size: 26px;
 }
 
 .game-identifier {
-    font-size: 16px;
-    text-align: left;
+  font-size: 16px;
+  text-align: left;
 }
 
 .fixture-team {
-    font-size: 25px;
-    text-transform: uppercase;  
+  font-size: 25px;
+  text-transform: uppercase;
 }
 
 .flag-left {
-    float: left;
-    position: absolute;
-    margin-top: 5px;
+  float: left;
+  position: absolute;
+  margin-top: 5px;
 }
 
 .flag-right {
-    float: right;
-    position: absolute;
-    margin-top: 5px;
+  float: right;
+  position: absolute;
+  margin-top: 5px;
 }
 
 @media screen and (max-width: 1000px) {
-    .game-identifier {
-        font-size: 12px;
-    }
+  .game-identifier {
+    font-size: 12px;
+  }
 
-    .fixture-team {
-        font-size: 18px;
-    }
+  .fixture-team {
+    font-size: 18px;
+  }
 
-    .group-header {
-        font-size: 22px;
-    }
-    .flag-left {
-        position: absolute;
-        margin-top: 4px;
-    }
+  .group-header {
+    font-size: 22px;
+  }
+  .flag-left {
+    position: absolute;
+    margin-top: 4px;
+  }
 
-    .flag-right {
-        position: absolute;
-        margin-top: 4px;
-    }
+  .flag-right {
+    position: absolute;
+    margin-top: 4px;
+  }
 }
 
 @media screen and (max-width: 750px) {
+  .game-identifier {
+    font-size: 10px;
+  }
 
-    .game-identifier {
-        font-size: 10px;
-    }
+  .fixture-team {
+    font-size: 12px;
+  }
 
-    .fixture-team {
-        font-size: 12px;
-    }
+  .fixture-score {
+    font-size: 14px;
+  }
+  .group-header {
+    font-size: 18px;
+  }
+  .flag-left {
+    position: absolute;
+    margin-top: 3px;
+  }
 
-    .fixture-score {
-        font-size: 14px;
-    }
-    .group-header {
-        font-size: 18px;
-    }
-    .flag-left {
-        position: absolute;
-        margin-top: 3px;
-    }
-
-    .flag-right {
-        position: absolute;
-        margin-top: 3px;
-    }
+  .flag-right {
+    position: absolute;
+    margin-top: 3px;
+  }
 }
 
 .info-logo-div {
-    height: 30vh;
-    min-height:300px;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+  height: 30vh;
+  min-height: 300px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 
 .info-logo {
-    max-height: 100%;
-    max-width: 100%;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .bracket-title {
-    font-size: 30px;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: 700;
 }
 
 .bracket-title-top-space {
-    font-size: 30px;
-    text-align: center;
-    margin-top: 70px;
-    margin-bottom: 20px;
-    font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-weight: 700;
 }
-
-
 
 /*Need to wrap the page with the wrap class, make sure margin and padding in wrap match min-height in footer*/
 /*Sticky Footer*/
@@ -314,12 +309,9 @@ a.no-logo:hover {
 }
 */
 
-
-
-
 body {
-    /*padding-top: 50px;  Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    font-family: "Roboto" !important;
+  /*padding-top: 50px;  Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+  font-family: "Roboto" !important;
 }
 
 .black-background {
@@ -327,200 +319,201 @@ body {
 }
 
 #home {
-/*    background: url("../img/korea-japan-background.jpg") no-repeat center center fixed;*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  /*    background: url("../img/korea-japan-background.jpg") no-repeat center center fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 #fifa-tourney {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 #fifa-tourney:active {
-    color: red;
+  color: red;
 }
 
 .home-content {
-    background-color: black; /* white */
-    /*background-color: rgb(26,24,25);*/
-    /*height: 100vh;*/
+  background-color: black; /* white */
+  /*background-color: rgb(26,24,25);*/
+  /*height: 100vh;*/
 }
 
 .main-logo {
-    padding-top: 5em;
-    width: 36%; /* 40% */
-    margin-left:32%; /* 30% */
-    margin-bottom: 7em;
+  padding-top: 5em;
+  width: 36%; /* 40% */
+  margin-left: 32%; /* 30% */
+  margin-bottom: 7em;
 }
 
 .vid-container {
-    width:70%;
-/*    position: relative;*/
-    margin: auto;
-    text-align: center;
+  width: 70%;
+  /*    position: relative;*/
+  margin: auto;
+  text-align: center;
 }
 
 iframe {
-    border-style: none;
-/*    margin:auto;*/
-    padding:3rem;
-    width:100%;
-    height: 10488px; /*Specific for 2017 Wicked World Cup*/
+  border-style: none;
+  /*    margin:auto;*/
+  padding: 3rem;
+  width: 100%;
+  height: 10488px; /*Specific for 2017 Wicked World Cup*/
 
-/*    position:relative;;*/
+  /*    position:relative;;*/
 }
 
 .navbar {
-    font-family: "Roboto";
-    /* background: rgb(35,31,32); */
-    /* For Mexico: */
-    /* background: black; */
-    background: #24292e;
+  font-family: "Roboto";
+  /* background: rgb(35,31,32); */
+  /* For Mexico: */
+  /* background: black; */
+  background: #24292e;
 }
 
 .navbar-nav {
-    float: right;
-    font-size: 14px;
+  float: right;
+  font-size: 14px;
 }
 
 .navbar-inverse .wicked:focus,
-.navbar-inverse .wicked:hover
-{
-    color:rgb(244,132,48);
-    background-color:transparent
+.navbar-inverse .wicked:hover {
+  color: rgb(244, 132, 48);
+  background-color: transparent;
 }
 
 .img-portfolio {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .img-hover:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 /* Home Page Carousel */
 
 header.carousel {
-    height: 50%;
+  height: 50%;
 }
 
 header.carousel .item,
 header.carousel .item.active,
 header.carousel .carousel-inner {
-    height: 100%;
+  height: 100%;
 }
 
 header.carousel .fill {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
 /* 404 Page Styles */
 
 .error-404 {
-    font-size: 100px;
+  font-size: 100px;
 }
 
 /* Pricing Page Styles */
 
 .price {
-    display: block;
-    font-size: 50px;
-    line-height: 50px;
+  display: block;
+  font-size: 50px;
+  line-height: 50px;
 }
 
 .price sup {
-    top: -20px;
-    left: 2px;
-    font-size: 20px;
+  top: -20px;
+  left: 2px;
+  font-size: 20px;
 }
 
 .period {
-    display: block;
-    font-style: italic;
+  display: block;
+  font-style: italic;
 }
 
 /*General styles*/
 
 h2.section-text {
-    font-size: 32px;
-    font-weight: bolder;
-    line-height: 50px;
+  font-size: 32px;
+  font-weight: bolder;
+  line-height: 50px;
 }
 
 p.lead {
-    font-size: 24px;
+  font-family: "Roboto";
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 p.small-info {
-    text-align: center;
-    font-size: 24px;
-    color: white; /* just for black background */
+  text-align: center;
+  font-size: 24px;
+  color: white; /* just for black background */
 }
 
 p {
-    font-family: "Roboto";
-    font-size: 16px;
+  font-family: "Roboto";
+  font-size: 16px;
 }
 
-
 li.section-text {
-    margin-bottom: 10px;
-    margin-left: 15px;
-    line-height: 30px;
-    list-style-image: url("../img/dash.png");
+  margin-bottom: 10px;
+  margin-left: 15px;
+  line-height: 30px;
+  list-style-image: url("../img/dash.png");
 }
 
 /* Footer Styles */
 
 footer {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 /* Responsive Styles */
 
-@media(max-width:991px) {
-    .customer-img,
-    .img-related {
-        margin-bottom: 30px;
-    }
-    iframe {
-        height:30em;
-    }
+@media (max-width: 991px) {
+  .customer-img,
+  .img-related {
+    margin-bottom: 30px;
+  }
+  iframe {
+    height: 30em;
+  }
 }
 
-@media(max-width: 900px) {
-    .main-logo {
-        width: 50%;
-        margin-left: 25%;
-    }
+@media (max-width: 900px) {
+  .main-logo {
+    width: 50%;
+    margin-left: 25%;
+  }
 
-    .navbar-nav {
-        font-size: 12px;
-    }
-    iframe {
-        height:26em;
-    }
+  .navbar-nav {
+    font-size: 12px;
+  }
+  iframe {
+    height: 26em;
+  }
 }
 
-@media(max-width:767px) {
-    .main-logo {
-        width:60%;
-        margin-left:20%;
-    }
+@media (max-width: 767px) {
+  .main-logo {
+    width: 60%;
+    margin-left: 20%;
+  }
 
-    .img-portfolio {
-        margin-bottom: 15px;
-    }
+  .img-portfolio {
+    margin-bottom: 15px;
+  }
 
-    header.carousel .carousel {
-        height: 70%;
-    }
-    .vid-container {
-        display:none;
-    }
+  header.carousel .carousel {
+    height: 70%;
+  }
+  .vid-container {
+    display: none;
+  }
 }
