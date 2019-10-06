@@ -9,29 +9,15 @@ class Homepage extends Component {
   render() {
     return (
       <div>
-        {/* <div className="d-flex justify-content-center home-logo-div">
+        <div className="d-flex justify-content-center home-logo-div">
           <img
             className="home-logo"
             src={mainlogo}
             alt={"Northwestern World Cup 2019"}
-          />
-        </div> */}
+          />{" "}
+        </div>{" "}
         <div className="d-flex justify-content-center">
-          <p className="lead">Community. Philanthropy. Soccer. </p>
-        </div>
-        <div className="d-flex justify-content-center">
-          <p classsname="reg-form">New Member Sign Ups Below</p>
-        </div>
-        <div>
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSfXDLQOjzVcaS_YyOwa7PlqL01ldUmANcN0vYaqeKPujPztwA/viewform?embedded=true"
-            width="640"
-            height="2963"
-            frameborder="0"
-            marginheight="0"
-            marginwidth="0"
-
-          ></iframe>
+          <p className="lead"> Community.Philanthropy.Soccer. </p>
         </div>
       </div>
     );
