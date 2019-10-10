@@ -3,12 +3,15 @@ import React, { Component } from "react";
 // import logomx from '../assets/img/nuwcmxwhite.png';
 // import wickedlogo from '../assets/img/wicked-cup/wickedcupbackground.jpg';
 // import winterfs from '../assets/img/futsal-tourney/nuwcwinterfutsal.png';
+
 import logo from "../assets/img/nuwclogo.jpg";
+
 
 class Homepage extends Component {
   render() {
     return (
       <div>
+
         <div>
           <a
             href="https://www.facebook.com/events/595818960951941"
@@ -27,6 +30,7 @@ class Homepage extends Component {
             Join us in our support of NU Women's Soccer this Friday! Click on
             our logo for the Facebook Event.
           </p>
+
         </div>
       </div>
     );
