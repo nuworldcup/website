@@ -10,7 +10,7 @@ import Gallery from './components/gallery/Gallery';
 import Contact from './components/Contact';
 import Info from './components/Info';
 
-class App extends Component {
+class App extends Component { 
   render() {
     return (
     <div>
