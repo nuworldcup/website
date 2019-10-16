@@ -6,31 +6,19 @@ import React, { Component } from "react";
 
 import logo from "../assets/img/nuwclogo.jpg";
 
-
 class Homepage extends Component {
   render() {
     return (
-      <div>
-
+      <div className='justify-content-center'>
         <div>
-          <a
-            href="https://www.facebook.com/events/595818960951941"
-            className="d-flex justify-content-center home-logo-div"
-          >
-            <img
-              className="home-logo"
-              src={logo}
-              alt={"Northwestern World Cup 2019"}
-            />
-          </a>
+          <img
+            className='home-logo justify-content-center'
+            src={logo}
+            alt={"Northwestern World Cup 2019"}
+          />
         </div>
-        <div className="d-flex justify-content-center">
-          <p className="lead">
-            {" "}
-            Join us in our support of NU Women's Soccer this Friday! Click on
-            our logo for the Facebook Event.
-          </p>
-
+        <div className='d-flex justify-content-center'>
+          <p className='lead'> Community. Philanthropy. Soccer.</p>
         </div>
       </div>
     );
