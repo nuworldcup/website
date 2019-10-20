@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Footer from './Footer';
 import title from '../assets/img/titles/sponsors-title.png';
-import womenscenter from '../assets/img/sponsors/2018/womens-center.png';
+import womenscenter from '../assets/img/nigerialogo.png';
 import president from '../assets/img/sponsors/2018/president.png';
 import loop from '../assets/img/sponsors/2018/loop.png';
 import pha from '../assets/img/sponsors/2018/pha.jpg';
