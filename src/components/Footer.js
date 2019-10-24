@@ -7,7 +7,7 @@ class Footer extends Component {
                 <hr />
                 <footer>
                     <div className="row">
-                        <div className="col-lg-12">
+                        <div className="col-lg-12 spooky-text">
                             <p>Copyright &copy; NU World Cup 2019</p>
                         </div>
                     </div>

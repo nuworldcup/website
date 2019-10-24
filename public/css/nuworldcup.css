@@ -13,6 +13,7 @@
 
 html {
   height: 100%;
+  background-color: #1B1919;
 }
 
 /*.navbar .navbar-nav {
@@ -52,7 +53,7 @@ html {
 .home-logo-div {
   height: 60vh;
   min-height: 300px;
-  margin-top: 10vh;
+  margin-top: 8vh;
   margin-bottom: 5vh;
 }
 
@@ -312,6 +313,7 @@ a.no-logo:hover {
 body {
   /*padding-top: 50px;  Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
   font-family: "Roboto" !important;
+
 }
 
 .black-background {
@@ -372,6 +374,10 @@ iframe {
   background: #24292e;
 }
 
+.wicked{
+  background: #E77D2B
+}
+
 .navbar-nav {
   float: right;
   font-size: 14px;
@@ -381,6 +387,10 @@ iframe {
 .navbar-inverse .wicked:hover {
   color: rgb(244, 132, 48);
   background-color: transparent;
+}
+
+.spooky-text{
+  color: #ffffff
 }
 
 .img-portfolio {
@@ -447,7 +457,7 @@ p.lead {
   font-family: "Roboto";
   font-size: 24px;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 p.small-info {
