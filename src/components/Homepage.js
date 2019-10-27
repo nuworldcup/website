@@ -11,7 +11,7 @@ class Homepage extends Component {
     return (
       <div className='black-background'>
         <div className='spooky-text'>
-          <div class='d-flex justify-content-center home-logo-div'>
+          <div className='d-flex justify-content-center home-logo-div'>
             <img
               class='home-logo'
               src={logo}
@@ -19,17 +19,19 @@ class Homepage extends Component {
             />
           </div>
           <div className='d-flex justify-content-center'>
+            <a href='https://forms.gle/FwbBGxhgeXCdh1ei8' classname='form'>
+              <p classname='lead'> Click here for Tournament Registration</p>
+            </a>
+          </div>
+          <div className='d-flex justify-content-center'>
             <p className='lead'> Community. Philanthropy. Soccer. Occasional Spookiness.</p>
           </div>
         </div>
         <Footer />
       </div>
+
     )
   }
 }
 
 export default Homepage
-
-// <div className="d-flex justify-content-center wicked-background-div">
-// 	<img className="wicked-background" src={wickedlogo} alt={"Wicked Cup 2018"}/>
-// </div>
