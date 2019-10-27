@@ -447,6 +447,13 @@ header.carousel .fill {
 
 /*General styles*/
 
+a.form{
+  font-size: 24px;
+  font-family: "Roboto";
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
 h2.section-text {
   font-size: 32px;
   font-weight: bolder;
@@ -468,7 +475,8 @@ p.small-info {
 
 p {
   font-family: "Roboto";
-  font-size: 16px;
+  font-size: 24px;
+  color: white;
 }
 
 li.section-text {
