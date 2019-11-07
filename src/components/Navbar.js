@@ -16,7 +16,7 @@ class Navbar extends Component {
 
 					<div className="collapse navbar-collapse" id="navbarToggler">
 						<ul className="navbar-nav mr-auto spooky-text">
-							{/* </ul>
+							 </ul>
 						<ul className="navbar-nav">
 							<li className="nav-item">
 								<Link className="nav-link" to={'/About'}> About </Link>
@@ -35,7 +35,7 @@ class Navbar extends Component {
 							</li>
 							<li className="nav-item">
 								<Link className="nav-link" to={'/Contact'}> Contact Us </Link>
-						</li>*/}
+						</li>
 						</ul>
 					</div>
 				</div>
