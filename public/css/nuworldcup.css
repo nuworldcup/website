@@ -13,7 +13,7 @@
 
 html {
   height: 100%;
-  background-color: #1B1919;
+  background-color: rgb(255, 255, 255);
 }
 
 /*.navbar .navbar-nav {
@@ -317,7 +317,7 @@ body {
 }
 
 .black-background {
-  background-color: black;
+  background-color: white;
 }
 
 #home {
@@ -337,7 +337,7 @@ body {
 }
 
 .home-content {
-  background-color: black; /* white */
+  background-color: white; /* white */
   /*background-color: rgb(26,24,25);*/
   /*height: 100vh;*/
 }
@@ -386,7 +386,7 @@ iframe {
 .navbar-inverse .wicked:focus,
 .navbar-inverse .wicked:hover {
   color: rgb(244, 132, 48);
-  background-color: transparent;
+  background-color: white;
 }
 
 .spooky-text{
@@ -476,7 +476,7 @@ p.small-info {
 p {
   font-family: "Roboto";
   font-size: 24px;
-  color: white;
+  color: #24292e;
 }
 
 li.section-text {
