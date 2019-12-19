@@ -15,19 +15,13 @@ class Homepage extends Component {
         <div className='d-flex justify-content-center home-logo-div'>
           <img
             class='home-logo'
-            src={fifa}
+            src={logo}
             alt={'Northwestern World Cup 2019'}
           />
         </div>
         <div className='d-flex justify-content-center'>
-          <a href='https://docs.google.com/forms/d/e/1FAIpQLSdWYuG4jqqm_TpyEBi1_ryHDKyIFZr3iIVb9mSvC0UJAGUwdg/viewform?usp=sf_link' classname='form'>
-            <p classname='lead'> Click here for Fifa Tournament Registration</p>
-          </a>
-        </div>
-        <div className='d-flex justify-content-center'>
           <p className='lead'> Community. Philanthropy. Soccer.</p>
         </div>
-
         <Footer />
       </div>
 
