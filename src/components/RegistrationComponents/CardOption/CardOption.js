@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import './CardOption.css';
 
+import { User, Users } from 'react-feather';
+
 class CardOption extends React.Component {
 
     render() {
@@ -13,9 +15,14 @@ class CardOption extends React.Component {
                     transitionEnter={false}
                     transitionLeaveTimeout={500}
                 >
-                <div className="card w-75 center-card" onClick={this.props.onClick}>
+                <div className="card w-75 center-card" onClick={this.props.onClick}>  
                     <div className="card-body">
-                        <h4 className="card-title">{this.props.title}</h4>
+                        <div className="icon-text-block">
+                            {this.props.icon()}
+                            <h4 className="card-title center-text-with-icon">
+                                {this.props.title}
+                            </h4>
+                        </div>
                         <p className="card-text">{this.props.description}</p>
                     </div>
                 </div>

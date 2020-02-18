@@ -6,3 +6,7 @@
 .top-space {
   margin-top: 0.4em;
 }
+
+.align-icon {
+  vertical-align: middle;
+}

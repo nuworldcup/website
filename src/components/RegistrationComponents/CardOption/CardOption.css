@@ -5,3 +5,12 @@ p {
 .center-card {
   margin: 0 auto;
 }
+
+.icon-text-block {
+  display: inline-block;
+}
+
+.center-text-with-icon {
+  display: inline-block;
+  vertical-align: top;
+}

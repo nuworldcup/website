@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { ArrowLeft } from 'react-feather';
 import Option from './Option';
 import './SplitPageOptions.css';
 
@@ -7,12 +8,17 @@ class SplitPageOptions extends Component {
     constructor(props) {
         super(props);
         this.remove = this.remove.bind(this);
+        this.setShowOption1 = this.setShowOption1.bind(this);
+        this.setShowOption2 = this.setShowOption2.bind(this);
+        this.reset = this.reset.bind(this);
         this.state = {
             option1Styles: "",
             option2Styles: "",
             optionHasBeenSelected: false,
             option1Active: false,
             option2Active: false,
+            showOption1: true,
+            showOption2: true
         };
     }
 
@@ -34,6 +40,40 @@ class SplitPageOptions extends Component {
         }
     }
 
+    setShowOption1(newState) {
+        this.setState({
+            showOption1: newState
+        });
+    }
+
+    setShowOption2(newState) {
+        this.setState({
+            showOption2: newState
+        });
+    }
+
+    reset() {
+        if(this.state.option1Active) {
+            // grow 2
+            this.setState({
+                option2Styles: "added",
+                option1Styles: "",
+                showOption2: true,
+                optionHasBeenSelected: false,
+                option1Active: false
+            });
+        } else {
+            // grow 1
+            this.setState({
+                option1Styles: "added",
+                option2Styles: "",
+                showOption1: true,
+                optionHasBeenSelected: false,
+                option2Active: false,
+            });
+        }
+    }
+
     render() {
 		return (
             <div className="full-page">
@@ -45,6 +85,9 @@ class SplitPageOptions extends Component {
                         optionHasBeenSelected={this.state.optionHasBeenSelected}
                         active={this.state.option1Active}
                         componentToRender={this.props.option1Component}
+                        show={this.state.showOption1}
+                        setShow={this.setShowOption1}
+                        reset={this.reset}
                     />
                     <Option 
                         extraStyles={"option-2 " + this.state.option2Styles}
@@ -53,6 +96,9 @@ class SplitPageOptions extends Component {
                         optionHasBeenSelected={this.state.optionHasBeenSelected}
                         active={this.state.option2Active}
                         componentToRender={this.props.option2Component}
+                        show={this.state.showOption2}
+                        setShow={this.setShowOption2}
+                        reset={this.reset}
                     />
                 </div>
             </div>

@@ -5,3 +5,15 @@
   resize: vertical;
   overflow: auto;
 }
+
+.back {
+  position: fixed;
+  top: 20%;
+  left: 10%;
+  color: white;
+  opacity: 0.7;
+}
+
+.back:hover {
+  opacity: 1;
+}
