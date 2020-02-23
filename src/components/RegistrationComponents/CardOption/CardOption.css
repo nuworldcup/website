@@ -14,3 +14,12 @@ p {
   display: inline-block;
   vertical-align: top;
 }
+
+.card-style {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.card-style:hover {
+  opacity: 0.9;
+}

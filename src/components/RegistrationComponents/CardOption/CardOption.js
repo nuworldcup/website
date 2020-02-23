@@ -15,7 +15,7 @@ class CardOption extends React.Component {
                     transitionEnter={false}
                     transitionLeaveTimeout={500}
                 >
-                <div className="card w-75 center-card" onClick={this.props.onClick}>  
+                <div className="card w-75 center-card card-style" onClick={this.props.onClick}>  
                     <div className="card-body">
                         <div className="icon-text-block">
                             {this.props.icon()}

@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
 import { ArrowLeft } from 'react-feather';
-import FadeInText from './FadeInText';
 import './Option.css';
 
 class Option extends React.Component {
@@ -39,14 +38,12 @@ class Option extends React.Component {
 
     renderIfActive() {
         if(this.props.active) {
-            return this.props.componentToRender();
+            return this.props.renderActiveComponent();
         }
         if(this.props.optionHasBeenSelected) {
             return null;
         }
-        return(
-            <FadeInText text={this.props.text} />
-        );
+        return this.props.renderInactiveComponent();
     }
 
   render() {

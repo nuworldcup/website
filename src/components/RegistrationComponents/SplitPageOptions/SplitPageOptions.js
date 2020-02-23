@@ -3,6 +3,8 @@ import { ArrowLeft } from 'react-feather';
 import Option from './Option';
 import './SplitPageOptions.css';
 
+// TODO:: Make background styling customizable
+
 class SplitPageOptions extends Component {
 
     constructor(props) {
@@ -81,10 +83,10 @@ class SplitPageOptions extends Component {
                     <Option 
                         extraStyles={"option-1 " + this.state.option1Styles} 
                         onClick={() => this.remove("option2")}
-                        text={"Womens World Cup"}
+                        renderInactiveComponent={this.props.renderInactiveComponentOne}
                         optionHasBeenSelected={this.state.optionHasBeenSelected}
                         active={this.state.option1Active}
-                        componentToRender={this.props.option1Component}
+                        renderActiveComponent={this.props.renderActiveComponentOne}
                         show={this.state.showOption1}
                         setShow={this.setShowOption1}
                         reset={this.reset}
@@ -92,10 +94,10 @@ class SplitPageOptions extends Component {
                     <Option 
                         extraStyles={"option-2 " + this.state.option2Styles}
                         onClick={() => this.remove("option1")}
-                        text={"Coed World Cup"}
+                        renderInactiveComponent={this.props.renderInactiveComponentTwo}
                         optionHasBeenSelected={this.state.optionHasBeenSelected}
                         active={this.state.option2Active}
-                        componentToRender={this.props.option2Component}
+                        renderActiveComponent={this.props.renderActiveComponentTwo}
                         show={this.state.showOption2}
                         setShow={this.setShowOption2}
                         reset={this.reset}
@@ -105,6 +107,5 @@ class SplitPageOptions extends Component {
 		);
 	}
 }
-
 
 export default SplitPageOptions;

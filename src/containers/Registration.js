@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SplitPageOptions from '../components/RegistrationComponents/SplitPageOptions/SplitPageOptions';
 import IndividualOrTeam from '../components/RegistrationComponents/IndividualOrTeam/IndividualOrTeam';
+import FadeInText from '../components/FadeInText/FadeInText';
 import './Registration.css';
 
 
@@ -18,11 +19,28 @@ class Registration extends Component {
         )
     }
 
+    renderWomensOption() {
+        return(
+            <FadeInText text={"Womens World Cup"} />
+        )
+    }
+
+    renderCoedOption() {
+        return(
+            <FadeInText text={"Coed World Cup"} />
+        )
+    }
+
     render() {
         // get request to backend to see if registration is open
 		return (
             <div className="registration">
-                <SplitPageOptions option1Component={this.renderIndividualOrTeam} option2Component={this.renderIndividualOrTeam} />
+                <SplitPageOptions 
+                    renderInactiveComponentOne={this.renderWomensOption}
+                    renderActiveComponentOne={this.renderIndividualOrTeam} 
+                    renderInactiveComponentTwo={this.renderCoedOption}
+                    renderActiveComponentTwo={this.renderIndividualOrTeam} 
+                />
             </div>
 		);
 	}
