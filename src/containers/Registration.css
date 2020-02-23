@@ -5,3 +5,16 @@ body {
 .registration {
   height: 100%;
 }
+
+.options-container {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.top-space {
+  margin-top: 0.4em;
+}
+
+.align-icon {
+  vertical-align: middle;
+}

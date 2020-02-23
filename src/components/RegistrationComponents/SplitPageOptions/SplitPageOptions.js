@@ -54,25 +54,35 @@ class SplitPageOptions extends Component {
         });
     }
 
+    // OnBack functions should return true or false
+    // true if the splitOptions should reset, false
+    // if other behavior is expected
     reset() {
+        var returnToNormal = true;
         if(this.state.option1Active) {
             // grow 2
-            this.setState({
-                option2Styles: "added",
-                option1Styles: "",
-                showOption2: true,
-                optionHasBeenSelected: false,
-                option1Active: false
-            });
+            returnToNormal = this.props.onOneBack();
+            if (returnToNormal) {
+                this.setState({
+                    option2Styles: "added",
+                    option1Styles: "",
+                    showOption2: true,
+                    optionHasBeenSelected: false,
+                    option1Active: false
+                });
+            }
         } else {
             // grow 1
-            this.setState({
-                option1Styles: "added",
-                option2Styles: "",
-                showOption1: true,
-                optionHasBeenSelected: false,
-                option2Active: false,
-            });
+            returnToNormal = this.props.onTwoBack();
+            if (returnToNormal) {
+                this.setState({
+                    option1Styles: "added",
+                    option2Styles: "",
+                    showOption1: true,
+                    optionHasBeenSelected: false,
+                    option2Active: false,
+                });
+            }
         }
     }
 
@@ -82,22 +92,28 @@ class SplitPageOptions extends Component {
                 <div className={"options"}>
                     <Option 
                         extraStyles={"option-1 " + this.state.option1Styles} 
-                        onClick={() => this.remove("option2")}
-                        renderInactiveComponent={this.props.renderInactiveComponentOne}
+                        onClick={() => {
+                            this.props.onRenderActiveOne();
+                            this.remove("option2");
+                        }}
+                        renderInactiveComponent={this.props.renderInactiveOne}
                         optionHasBeenSelected={this.state.optionHasBeenSelected}
                         active={this.state.option1Active}
-                        renderActiveComponent={this.props.renderActiveComponentOne}
+                        renderActiveComponent={this.props.renderActiveOne}
                         show={this.state.showOption1}
                         setShow={this.setShowOption1}
                         reset={this.reset}
                     />
                     <Option 
                         extraStyles={"option-2 " + this.state.option2Styles}
-                        onClick={() => this.remove("option1")}
-                        renderInactiveComponent={this.props.renderInactiveComponentTwo}
+                        onClick={() => {
+                            this.props.onRenderActiveTwo();
+                            this.remove("option1");
+                        }}
+                        renderInactiveComponent={this.props.renderInactiveTwo}
                         optionHasBeenSelected={this.state.optionHasBeenSelected}
                         active={this.state.option2Active}
-                        renderActiveComponent={this.props.renderActiveComponentTwo}
+                        renderActiveComponent={this.props.renderActiveTwo}
                         show={this.state.showOption2}
                         setShow={this.setShowOption2}
                         reset={this.reset}
