@@ -5,32 +5,92 @@ import React, { Component } from 'react'
 // import winterfs from '../assets/img/futsal-tourney/nuwcwinterfutsal.png';
 import Footer from './Footer'
 import logo from '../assets/img/nuwclogo.jpg'
-import fifa from '../assets/img/Fifa-Tourney-Banner.jpg'
+import nigeria from '../assets/img/nigerialogo.png'
 import futsal from '../assets/img/futsal-tourney/nuwcwinterfutsal.png'
+import mexico from '../assets/img/nuwcmxalt.png'
+import pic1 from '../assets/img/gallery/pic1.jpg'
+import pic2 from '../assets/img/gallery/pic2.jpg'
+import pic3 from '../assets/img/gallery/pic3.jpg'
+import gonzo from '../assets/img/gonzo/gonzo.jpg'
 
 class Homepage extends Component {
   render() {
     return (
+      <div>
+        <div background-color='white'>
 
-      <div background-color='white'>
-        <div className='d-flex justify-content-center home-logo-div'>
-          <img
-            class='home-logo'
-            src={futsal}
-            alt={'Northwestern World Cup 2019'}
-          />
-        </div>
-        <div className='d-flex justify-content-center'>
-          <p className='lead'> Community. Philanthropy. Soccer.</p>
-        </div>
-        <div>
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScrgCt121Wujo4PNwBdMKI5ZFvzJQ0Y3lUEjkvRJe_X4GO5vw/viewform?embedded=true" width="640" height="1080" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          <div>
+            <img class='home-logo center'
+              src={logo}>
+            </img>
+          </div>
 
-        </div>
-        <div>
+          <div class='homepage-container'>
 
+            <div class='grid-cell-2'>
+              <div id='carouselcontrols' class='carousel slide center' data-ride='carousel'>
+                <div class='carousel-inner'>
+                  <div class='carousel-item active'>
+                    <img class='d-block' src={pic1} alt='First slide' /></div>
+                  <div class='carousel-item'>
+                    <img class='d-block ' src={pic2} alt='Second slide' />
+                  </div>
+                  <div class='carousel-item'>
+                    <img class='d-block' src={pic3} alt='Third slide' />
+                  </div>
+                </div>
+                <a class='carousel-control-prev' href='#carouselcontrols' role='button' data-slide='prev'>
+                  <span class='carousel-control-prev-icon' aria-hidden='true'></span>
+                  <span class='sr-only'>Previous</span>
+                </a>
+                <a class='carousel-control-next' href='#carouselcontrols' role='button' data-slide='next'>
+                  <span class='carousel-control-next-icon' aria-hidden='true'></span>
+                  <span class='sr-only'>Next</span>
+                </a>
+              </div>
+            </div>
 
+            <div class='grid-cell-25'>
+              <h1>About Us</h1>
+            </div>
+
+            <div class='grid-cell-35'>
+              <h1>Past Events</h1>
+            </div>
+
+            <div class='grid-cell-3'>
+              <div id='carouselcontrol' class='carousel slide center' data-ride='carousel'>
+                <div class='carousel-inner'>
+                  <div class='carousel-item active'>
+                    <img class='d-block ' src={futsal} alt='First slide' /></div>
+                  <div class='carousel-item'>
+                    <img class='d-block ' src={nigeria} alt='Second slide' />
+                  </div>
+                  <div class='carousel-item'>
+                    <img class='d-block ' src={mexico} alt='Third slide' />
+                  </div>
+                </div>
+                <a class='carousel-control-prev' href='#carouselcontrol' role='button' data-slide='prev'>
+                  <span class='carousel-control-prev-icon' aria-hidden='true'></span>
+                  <span class='sr-only'>Previous</span>
+                </a>
+                <a class='carousel-control-next' href='#carouselcontrol' role='button' data-slide='next'>
+                  <span class='carousel-control-next-icon' aria-hidden='true'></span>
+                  <span class='sr-only'>Next</span>
+                </a>
+              </div>
+            </div>
+
+            <div class='grid-cell-1'>
+              <h1 class='home-content'>What is Gonzo?</h1>
+              <p>A non-profit that uses soccer to empower girls in order to achieve their potential</p>
+            </div>
+            <div class='grid-cell-1'>
+              <img src={gonzo}></img>
+            </div>
+          </div>
         </div>
+
         <Footer />
       </div >
 
