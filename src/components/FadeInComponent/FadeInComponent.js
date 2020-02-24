@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-import './FadeInText.css';
+import './FadeInComponent.css';
 
-class FadeInText extends React.Component {
+class FadeInComponent extends React.Component {
     render() {
           return (
                 <ReactCSSTransitionGroup
@@ -12,10 +12,10 @@ class FadeInText extends React.Component {
                     transitionEnter={false}
                     transitionLeaveTimeout={500}
                 >
-                    <span>{this.props.text}</span>
+                    {this.props.renderComponent()}
                 </ReactCSSTransitionGroup>
         );
     }
 }
 
-export default FadeInText;
+export default FadeInComponent;

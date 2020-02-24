@@ -18,3 +18,18 @@ body {
 .align-icon {
   vertical-align: middle;
 }
+
+.individualOrTeamTitle {
+  text-align: center;
+}
+
+.white-title {
+  color: white;
+  font: "Manrope3";
+  text-align: center;
+  margin: 0;
+}
+
+.bottom-space {
+  margin-bottom: 0.4em;
+}
