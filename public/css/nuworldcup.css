@@ -29,9 +29,24 @@ html {
   margin-top: 5vh;
 }
 
+.title-text {
+  margin-bottom: 15px;
+}
+
+.header-text {
+  padding-left: 15px;
+  font-size: 4vw;
+  
+}
+
+.info-text {
+  padding-left: 15px;
+  font-size: 2vw;
+}
+
 .carousel {
-  max-width: 466px;
-  max-height: 466px;
+  max-width: 700px;
+  max-height: 500px;
 }
 
 .title {
@@ -76,6 +91,8 @@ html {
 display: block;
 margin-left: auto;
 margin-right: auto;
+text-align: center;
+padding-bottom: 15px;
 }
 
 .home-logo-div {
@@ -408,19 +425,20 @@ iframe {
 }
 
 .grid-cell-1 {
-  flex: 0 40%;
+  flex: 0 50%;
   background:white;
   box-sizing: border-box;
   padding: 15px;
-  max-height: 400px;
+  max-height: 500px;
+  max-width: 700px;
 }
 
 .grid-cell-15 {
-  flex: 0 60%;
+  flex: 0 50%;
   background:white;
   box-sizing: border-box;
   padding: 15px;
-  max-height: 400px;
+  max-height: 500px;
  }
 
 img {
@@ -428,20 +446,21 @@ img {
 }
 
 .grid-cell-2 {
- flex: 0 40%;
+ flex: 0 50%;
  background: rgb(145, 112, 196);
  box-sizing: border-box;
  padding: 15px;
- max-height: 400px;
+ max-height: 500px;
 
 }
 
 .grid-cell-25{
-  flex: 0 60%;
+  flex: 0 50%;
   background: rgb(145, 112, 196);
   box-sizing: border-box;
-  padding: 15px;
-  max-height: 400px;
+  padding-top: 15px;
+  padding-left: 15px;
+  max-height: 500px;
  }
 
 .grid-cell-3 {
@@ -449,15 +468,15 @@ img {
   background: #87D0C9;
   box-sizing: border-box;
   padding: 15px;
-  max-height: 400px;
+  max-height: 500px;
 }
 
 .grid-cell-35 {
   flex: 0 60%;
   background: #87D0C9;
   box-sizing: border-box;
-  padding: 15px;
-  max-height: 400px;
+  padding-top: 15px;
+  max-height: 500px;
 }
 
 .navbar {
@@ -489,6 +508,11 @@ img {
 
 .img-portfolio {
   margin-bottom: 30px;
+}
+
+.landing-gallery{
+  max-width: 700px;
+  max-height: 500px;
 }
 
 .img-hover:hover {

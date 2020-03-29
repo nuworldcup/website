@@ -208,6 +208,7 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+  margin: auto;
 }
 
 svg:not(:root) {
@@ -5869,7 +5870,8 @@ button.close {
 
 .carousel-control-prev,
 .carousel-control-next {
-  position: absolute;
+  position: relative;
+  margin: auto;
   top: 0;
   bottom: 0;
   display: -ms-flexbox;
