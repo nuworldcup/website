@@ -7,6 +7,12 @@ import Footer from './Footer'
 import logo from '../assets/img/transparentnuwclogo.png'
 import gonzo from '../assets/img/gonzo/gonzo-w.jpg'
 import grouppic from '../assets/img/grouppic.jpeg';
+import futsal from '../assets/img/futsal-tourney/nuwcwinterfutsal-square.png'
+import mexico from '../assets/img/nuwcmxalt.png'
+import pic17 from '../assets/img/gallery/pic17.JPG'
+import pic18 from '../assets/img/gallery/pic18.JPG'
+import pic19 from '../assets/img/gallery/pic19.jpg'
+
 import '../homepage.css'
 
 
