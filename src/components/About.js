@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import title from '../assets/img/titles/about-title.png';
-
+import Footer from './Footer'
 
 
 class About extends Component {
@@ -22,6 +22,10 @@ class About extends Component {
 	    		<div className="d-flex justify-content-center">
 	    			<p className="lead"> Keep updated with what we're up to during the year by following our <a href="https://www.facebook.com/nuworldcup/" target="_blank">Facebook</a> and <a href="https://www.instagram.com/nuworldcup/?hl=en" target="_blank"> Instagram</a> pages, as well as checking here periodically. </p>
     			</div>
+	    		<div className="d-flex">
+	    			<p className="lead"> Get in touch! Reach us at northwesternworldcup@gmail.com or text us at 847-644-5756.</p>
+    			</div>
+    			<Footer />
 			</div>
 
 		);

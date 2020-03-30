@@ -9,6 +9,7 @@ import Sponsors from './components/Sponsors';
 import Gallery from './components/gallery/Gallery';
 import Contact from './components/Contact';
 import Info from './components/Info';
+import Calendar from './components/Calendar';
 
 class App extends Component { 
   render() {
@@ -17,13 +18,9 @@ class App extends Component {
     	<Navbar />
     	<Switch>
     		<Route path="/" exact component={Homepage}/>
-    		<Route path="/FAQ" exact component={FAQ}/>
-    		<Route path="/gonzo" exact component={Gonzo}/>
-    		<Route path="/tournament-info" exact component={Info}/>
     		<Route path="/about" exact component={About}/>
-			<Route path="/sponsors" exact component={Sponsors}/>
 			<Route path="/gallery" exact component={Gallery}/>
-			<Route path="/contact" exact component={Contact}/>
+            <Route path="/calendar" exact component={Calendar}/> 
 	    </Switch>
     </div>
     );
@@ -31,8 +28,3 @@ class App extends Component {
 }
 
 export default App;
-
-
-
-
-

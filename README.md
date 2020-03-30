@@ -8,3 +8,9 @@ Things to do:
 - Lower priority - compressed versions of the images
 
 - Site redesign? Let's see
+
+Things to do: 
+- Import homepage from Angel's code/transparent background logo with homepage
+- Gallery page rework
+- About page rework
+- Space below the footer argh

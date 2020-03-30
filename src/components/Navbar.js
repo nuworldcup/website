@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+// fix the calendar part on the nav and make it point to the calendar component
+
 class Navbar extends Component {
 	render() {
 		return (
 			<nav className="navbar navbar-static-top navbar-expand-lg navbar-dark" color='dark-grey' role="navigation">
 				<div className="container">
 					<Link className="navbar-brand" to={'/'}>
-						Northwestern World Cup
+						NU World Cup
 					</Link>
 
-					<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="#navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+					<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" 
+					aria-controls="#navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 						<span className="navbar-toggler-icon"></span>
 					</button>
 
@@ -22,19 +25,10 @@ class Navbar extends Component {
 								<Link className="nav-link" to={'/About'}> About </Link>
 							</li>
 							<li className="nav-item">
-								<Link className="nav-link" to={'/gonzo'}> Gonzo </Link>
+								<Link className="nav-link" to={'/gallery'}> Gallery </Link>
 							</li>
 							<li className="nav-item">
-								<Link className="nav-link" to={'/FAQ'}> FAQ </Link>
-							</li>
-							<li className="nav-item">
-								<Link className="nav-link" to={'/Gallery'}> Gallery </Link>
-							</li>
-							<li className="nav-item">
-								<Link className="nav-link" to={'/sponsors'}> Sponsors </Link>
-							</li>
-							<li className="nav-item">
-								<Link className="nav-link" to={'/Contact'}> Contact Us </Link>
+								<Link className="nav-link" to={'/calendar'}> Calendar </Link>
 							</li>
 						</ul>
 					</div>
@@ -45,29 +39,3 @@ class Navbar extends Component {
 }
 
 export default Navbar;
-
-
-// <li className="nav-item">
-// 	<a className="nav-link" href="about-us"> About Us </a>
-// </li>
-// <li className="nav-item">
-// 	<a className="nav-link" href="/gallery"> Gallery </a>
-// </li>
-// <li className="nav-item">
-// 	<a className="nav-link" href="/contact-us"> Contact Us </a>
-// </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
