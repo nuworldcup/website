@@ -4,7 +4,7 @@ import Footer from './Footer'
 class Calendar extends React.Component {
 	render(){
 		return(
-			<div>
+			<div className="calendar">
 			  <div className="timeline">
 			  <br />
 			    <div className="calcontainer left">
@@ -66,9 +66,8 @@ class Calendar extends React.Component {
 			        <h2>Chicago Fire Trip</h2>
 			        <p>A match day outing to close out the year. Join us at Soldier Field to watch a Chicago Fire match.</p>
 			      </div>
-			    </div>
+			    </div><br /><br />
 			  </div>
-			 <Footer />
 			</div>
 			)
 	}

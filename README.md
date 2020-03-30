@@ -1,16 +1,10 @@
 # website
-react app for the nu world cup website!
-
-Things to do:
-- Make sure things are mobile responsive
-- About Us page, copy and image(s)
-- Update gallery
-- Lower priority - compressed versions of the images
-
-- Site redesign? Let's see
+React app for the nu world cup website!
 
 Things to do: 
-- Import homepage from Angel's code/transparent background logo with homepage
-- Gallery page rework
-- About page rework
-- Space below the footer argh
+- Homepage - stuff needs to be vertically centred, add carousel and sponsor info
+- Gallery page rework, Contact page should be an exec page
+- Make sure everything is responsive
+
+Lower priority:
+- Images on AWS, for now can make the files smaller

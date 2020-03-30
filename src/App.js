@@ -10,6 +10,7 @@ import Gallery from './components/gallery/Gallery';
 import Contact from './components/Contact';
 import Info from './components/Info';
 import Calendar from './components/Calendar';
+import Footer from './components/Footer';
 
 class App extends Component { 
   render() {
@@ -18,10 +19,11 @@ class App extends Component {
     	<Navbar />
     	<Switch>
     		<Route path="/" exact component={Homepage}/>
-    		<Route path="/about" exact component={About}/>
+    		<Route path="/contact" exact component={Contact}/>
 			<Route path="/gallery" exact component={Gallery}/>
             <Route path="/calendar" exact component={Calendar}/> 
 	    </Switch>
+        <Footer />
     </div>
     );
   }

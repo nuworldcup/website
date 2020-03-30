@@ -312,8 +312,7 @@ class Gallery extends Component {
 							/>
 						</div>						
 					</div>
-				</div>
-				<Footer />
+				</div><br /><br />
 			</div>
 
 

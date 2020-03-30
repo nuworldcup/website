@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.calendar {
+  background-color: #86d0c9;
+}
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
