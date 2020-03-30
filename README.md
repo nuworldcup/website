@@ -14,3 +14,4 @@ Things to do:
 - Gallery page rework
 - About page rework
 - Space below the footer argh
+- Clean up the CSS so we're not breaking our necks finding shit
