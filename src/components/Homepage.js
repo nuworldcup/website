@@ -8,10 +8,12 @@ import logo from '../assets/img/transparentnuwclogo.png'
 import gonzo from '../assets/img/gonzo/gonzo-w.jpg'
 import grouppic from '../assets/img/grouppic.jpeg';
 import futsal from '../assets/img/futsal-tourney/nuwcwinterfutsal-square.png'
-import mexico from '../assets/img/nuwcmxalt.png'
+import mexico from '../assets/img/nuwcmxwhite.png'
 import pic17 from '../assets/img/gallery/pic17.JPG'
 import pic18 from '../assets/img/gallery/pic18.JPG'
 import pic19 from '../assets/img/gallery/pic19.jpg'
+import nigeria from '../assets/img/nigerialogo.png'
+import korjap from '../assets/img/past-logos/korea-japan-logo.png'
 
 import '../homepage.css'
 
@@ -33,8 +35,31 @@ class Homepage extends Component {
               (futsal, FIFA, halloween-themed), cultural events, freestyler shows, and trips to Chicago Fire games. </p>
           </section>
           <section class="main-content" role="complementary">
-            Sidebar
-            </section>
+            <div id="carouselExampleControls" class="carousel slide carousel1-images carousel-center" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="w-100" src={nigeria} alt="First slide" />
+                </div>
+                <div class="carousel-item">
+                  <img class="w-100" src={futsal} alt="Second slide" />
+                </div>
+                <div class="carousel-item">
+                  <img class="w-100" src={mexico} alt="Third slide" />
+                </div>
+                <div class="carousel-item">
+                  <img class="w-100" src={korjap} alt="Fourth slide" />
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </section>
         </div>
         <div class="page-wrap panel3">
           <section class="main-content" role="main">
