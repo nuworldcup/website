@@ -15,3 +15,8 @@ Things to do:
 - About page rework
 - Space below the footer argh
 - Clean up the CSS so we're not breaking our necks finding shit
+
+
+Nice to have:
+- Hover over calendar for more information
+- Figure out other things to make the website a bit more interactable
