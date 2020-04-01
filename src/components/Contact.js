@@ -1,22 +1,36 @@
 import React, { Component } from 'react';
 import grouppic from '../assets/img/grouppic.jpeg';
+import '../contact.css'
 
 class Contact extends Component {
-    render() {
+	render() {
 		return (
-			<div className="container">
-				<br /> <br />
-	    		<div className="d-flex justify-content-center">
-	    			<p className="lead toptitle"> Applications for new members will be out on this page soon, stay tuned!</p>
-    			</div>    			
-    			<div className="row justify-content-center">
-		                <img className="contactimg" src={grouppic} alt="" />
-		        </div><br />
-				<div className="d-flex justify-content-center">
-					<p className="lead justify-content-center"> Questions? Email us at northwesternworldcup@gmail.com </p>
+			<div>
+
+				<div className="container">
+					<div class='page-wrap'>
+						<section class='contact-content'>
+							<h1>President</h1>
+							<img scr='...' alt='placeholder' />
+							<p>grantelliot2020@u.northwestern.edu</p>
+						</section>
+						<section class='contact-content'>
+							<h1>Vice President</h1>
+							<img src='...' alt='placeholder' />
+							<p>Sumer</p>
+						</section>
+						<section class='contact-content'>
+							<h1>Treasurer</h1>
+							<img src='...' alt='placeholder' />
+							<p>Madison Hora</p>
+						</section>
+						<br /> <br />
+					</div>
+
+
 				</div><br /> <br /> <br /> <br />
 			</div>
-	    );
+		);
 	}
 }
 
