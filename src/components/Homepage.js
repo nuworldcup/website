@@ -3,17 +3,22 @@ import React, { Component } from 'react'
 // import logomx from '../assets/img/nuwcmxwhite.png';
 // import wickedlogo from '../assets/img/wicked-cup/wickedcupbackground.jpg';
 // import winterfs from '../assets/img/futsal-tourney/nuwcwinterfutsal.png';
-import Footer from './Footer'
 import logo from '../assets/img/transparentnuwclogo.png'
 import gonzo from '../assets/img/gonzo/gonzo-w.jpg'
 import grouppic from '../assets/img/grouppic.jpeg';
 import futsal from '../assets/img/futsal-tourney/nuwcwinterfutsal-square.png'
 import mexico from '../assets/img/nuwcmxwhite.png'
-import pic17 from '../assets/img/gallery/pic17.JPG'
-import pic18 from '../assets/img/gallery/pic18.JPG'
-import pic19 from '../assets/img/gallery/pic19.jpg'
 import nigeria from '../assets/img/nigerialogo.png'
 import korjap from '../assets/img/past-logos/korea-japan-logo.png'
+import subway from '../assets/img/sponsors/2016/subway.jpg'
+import kind from '../assets/img/sponsors/2016/kind.jpg'
+import monster from '../assets/img/sponsors/2016/monster.jpg'
+import redstars from '../assets/img/sponsors/2019/redstars.png'
+import president from '../assets/img/sponsors/2018/president.png'
+import loop from '../assets/img/sponsors/2018/loop.png'
+
+
+import fire from '../assets/img/sponsors/old/chicagofire.png'
 
 import '../homepage.css'
 
@@ -22,14 +27,15 @@ class Homepage extends Component {
   render() {
     return (
       <div>
-        <section>
-          <img class='main-logo-div center' src={logo}></img>
-        </section>
-        <section>
-          <h1 class='logo-text'> Community. Philanthropy. Soccer.</h1>
-        </section>
-
-        <div class="page-wrap panel2">
+        <div class="topsection">
+          <section>
+            <img class='main-logo-div center' src={logo}></img>
+          </section>
+          <section>
+            <h1 class='logo-text'> Community. Philanthropy. Soccer.</h1>
+          </section>
+        </div>
+        <div class="page-wrap panel2" id="panel2">
           <section class="main-content" role="main">
             <p class="lead">We run a variety of events every year, including tournaments
               (futsal, FIFA, halloween-themed), cultural events, freestyler shows, and trips to Chicago Fire games. </p>
@@ -84,13 +90,19 @@ class Homepage extends Component {
           </section>
         </div>
         <div class="page-wrap panel1">
-          <section class="main-content" role="main">
-            <img class='home-logo center' src={logo}></img>
-          </section>
-          <section class="main-content" role="complementary">
-            <p class="lead">We're blessed to have partnered with a number of great companies in the last few years. World Cup
-              wouldn't be the same without our sponsors. </p>
-          </section>
+            <section class="main-content" role="main">
+              <img class="sponsorimg" src={subway}></img>
+              <img class="sponsorimg" src={fire}></img>
+              <img class="sponsorimg" src={kind}></img>
+              <img class="sponsorimg" src={monster}></img>
+              <img class="sponsorimg" src={redstars}></img>
+              <img class="sponsorimg" src={loop}></img>
+              <img class="sponsorbottomimg" src={president}></img>
+            </section>
+            <section class="main-content" role="complementary">
+              <p class="lead">We're blessed to have partnered with a number of great companies in the last few years. World Cup
+                wouldn't be the same without our sponsors. </p>
+            </section>
         </div>
       </div>
     )
