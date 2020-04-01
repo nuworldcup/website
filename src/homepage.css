@@ -10,6 +10,23 @@
   width: 50%;
   height: 350px;
 }
+.topsection {
+  height: 70vh;
+} 
+
+.sponsorimg {
+  height: 15vh;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  max-width: 50%;
+  max-height: 25%
+}
+
+.sponsorbottomimg {
+  max-width: 100%;
+}
 
 .main-content {
   -webkit-box-ordinal-group: 2;   /* OLD - iOS 6-, Safari 3.1-6 */
