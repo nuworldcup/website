@@ -10,6 +10,8 @@ import Gallery from './components/gallery/Gallery';
 import Contact from './components/Contact';
 import Info from './components/Info';
 import Calendar from './components/Calendar';
+import Footer from './components/Footer'
+
 
 class App extends Component { 
   render() {
@@ -22,6 +24,7 @@ class App extends Component {
 			<Route path="/gallery" exact component={Gallery}/>
             <Route path="/calendar" exact component={Calendar}/> 
 	    </Switch>
+        <Footer />
     </div>
     );
   }

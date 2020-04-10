@@ -25,7 +25,6 @@ class About extends Component {
 	    		<div className="d-flex">
 	    			<p className="lead"> Get in touch! Reach us at northwesternworldcup@gmail.com or text us at 847-644-5756.</p>
     			</div>
-    			<Footer />
 			</div>
 
 		);

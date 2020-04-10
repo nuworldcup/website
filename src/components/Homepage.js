@@ -21,7 +21,6 @@ class Homepage extends Component {
         <div className='d-flex justify-content-center'>
           <p className='lead'> Community. Philanthropy. Soccer.</p>
         </div>
-        <Footer />
       </div >
 
     )
