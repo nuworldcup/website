@@ -319,7 +319,7 @@ class Gallery extends Component {
 
 	    return(
 	    	<div> 
-				<div id="carouselExampleControls" class="carousel slide carousel1-images carousel-center" data-ride="carousel">
+				<div id="carouselExampleControls" class="carousel slide carousel2-images carousel-center gallerycarousel" data-ride="carousel">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
 						  <img class="w-100" src={pic1} alt="Picture 1" />
@@ -380,22 +380,7 @@ class Gallery extends Component {
 	              </a>
 	            </div>
 	    	</div>
-
 	    );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	}
 }
 

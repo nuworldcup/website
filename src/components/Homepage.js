@@ -37,7 +37,7 @@ class Homepage extends Component {
         </div>
         <div class="page-wrap panel2" id="panel2">
           <section class="main-content" role="main">
-            <p class="lead">We run a variety of events every year, including tournaments
+            <p class="lead homepagetext">We run a variety of events every year, including tournaments
               (futsal, FIFA, halloween-themed), cultural events, freestyler shows, and trips to Chicago Fire games. </p>
           </section>
           <section class="main-content" role="complementary">
@@ -72,7 +72,7 @@ class Homepage extends Component {
             <img class='home-logo center' src={gonzo}></img>
           </section>
           <section class="main-content" role="complementary">
-            <p class="lead">We're also very proud of our affiliation
+            <p class="lead homepagetext">We're also very proud of our affiliation
             with Gonzo Soccer: a Chicago non profit that empowers young girls through the beautiful game. World Cup partners
                 with Gonzo to provide the girls academic mentorship. Check them out <a href="https://www.facebook.com/GONZOsoccer/">here</a>!
               </p>
@@ -80,7 +80,7 @@ class Homepage extends Component {
         </div>
         <div class="page-wrap panel4">
           <section class="main-content" role="main">
-            <p class="lead">World Cup recruits freshmen, sophomores, juniors, and seniors
+            <p class="lead homepagetext">World Cup recruits freshmen, sophomores, juniors, and seniors
             every year in the fall. To get in touch, email us at northwesternworldcup@gmail.com,
             or reach out to one of our exec board through the contact tab!
               </p>
@@ -100,7 +100,7 @@ class Homepage extends Component {
               <img class="sponsorbottomimg" src={president}></img>
             </section>
             <section class="main-content" role="complementary">
-              <p class="lead">We're blessed to have partnered with a number of great companies in the last few years. World Cup
+              <p class="lead homepagetext">We're blessed to have partnered with a number of great companies in the last few years. World Cup
                 wouldn't be the same without our sponsors. </p>
             </section>
         </div>

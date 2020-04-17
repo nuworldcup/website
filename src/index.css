@@ -21,3 +21,13 @@ body {
 .contactimg {
 	width: 80%;
 }
+
+/* Gallery */
+.carousel2-images {
+	width: 50%;
+}
+
+.gallerycarousel {
+	padding-top: 5em !important;
+	padding-bottom: 5em !important;
+}
