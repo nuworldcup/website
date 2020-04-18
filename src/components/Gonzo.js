@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import title from '../assets/img/titles/gonzo-title.png';
 import infographic from '../assets/img/gonzo/gonzo-infograph-short.png';
-import Footer from './Footer';
 
 class Gonzo extends Component {
     render() {

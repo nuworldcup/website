@@ -79,7 +79,7 @@ class Homepage extends Component {
         </div>
         <div className="flex-container">
           <div className="container">
-            <img className='home-logo center gonzoimage' src={gonzo}></img>
+            <img className='home-logo center gonzoimage' alt='gonzo' src={gonzo}></img>
           </div>
           <div className="container">
             <p className="lead homepagetext">We're also very proud of our affiliation
@@ -96,7 +96,7 @@ class Homepage extends Component {
             </p>
           </div>
           <div className="container containerhomepg">
-            <img className='home-logo center gonzoimage' src={grouppic}></img>
+            <img className='home-logo center gonzoimage' alt='group' src={grouppic}></img>
           </div>
         </div>
         <div className="flex-container panel1">
