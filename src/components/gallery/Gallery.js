@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ImageZoom from 'react-medium-image-zoom';
-import Footer from '../Footer';
 import PageTitle from '../PageTitle';
 import pic1 from '../../assets/img/gallery/pic1.jpg';
 import pic2 from '../../assets/img/gallery/pic2.jpg';
@@ -33,13 +32,13 @@ class Gallery extends Component {
 
 	getStyle(image) {
 		if (image.height > image.width) {
-			return { height: '100%', width: 'auto', borderStyle: 'solid', borderWidth: '1px', marginTop: '3em'}
+			return { height: '100%', width: 'auto', borderStyle: 'solid', borderWidth: '1px', marginTop: '3em' }
 		} else {
-			return { width: '100%', borderStyle: 'solid', borderWidth: '1px', marginTop: '3em'}
+			return { width: '100%', borderStyle: 'solid', borderWidth: '1px', marginTop: '3em' }
 		}
 	}
 
-    render() {
+	render() {
 
 		// var centerBox = {
 		// 	display: 'flex',
@@ -77,7 +76,7 @@ class Gallery extends Component {
 
 		return (
 			<div>
-				<PageTitle 
+				<PageTitle
 					image={galleryTitle}
 					alternate="Gallery"
 				/>
@@ -90,7 +89,7 @@ class Gallery extends Component {
 									alt: 'Golden Gate Bridge',
 									className: 'img',
 									style: this.getStyle(pic1)
-									}}
+								}}
 								zoomImage={{
 									src: pic1,
 									alt: 'Same Image but largened'
@@ -104,7 +103,7 @@ class Gallery extends Component {
 									alt: 'Golden Gate Bridge',
 									className: 'img',
 									style: this.getStyle(pic2)
-									}}
+								}}
 								zoomImage={{
 									src: pic2,
 									alt: 'Same Image but largened'
@@ -118,7 +117,7 @@ class Gallery extends Component {
 									alt: 'Golden Gate Bridge',
 									className: 'img',
 									style: this.getStyle(pic3)
-									}}
+								}}
 								zoomImage={{
 									src: pic3,
 									alt: 'Same Image but largened'
@@ -132,7 +131,7 @@ class Gallery extends Component {
 									alt: 'Golden Gate Bridge',
 									className: 'img',
 									style: this.getStyle(pic4)
-									}}
+								}}
 								zoomImage={{
 									src: pic4,
 									alt: 'Same Image but largened'
@@ -148,7 +147,7 @@ class Gallery extends Component {
 									alt: 'Golden Gate Bridge',
 									className: 'img',
 									style: this.getStyle(pic5)
-									}}
+								}}
 								zoomImage={{
 									src: pic5,
 									alt: 'Same Image but largened'
@@ -162,7 +161,7 @@ class Gallery extends Component {
 									alt: 'Golden Gate Bridge',
 									className: 'img',
 									style: this.getStyle(pic6)
-									}}
+								}}
 								zoomImage={{
 									src: pic6,
 									alt: 'Same Image but largened'
@@ -176,7 +175,7 @@ class Gallery extends Component {
 									alt: 'Golden Gate Bridge',
 									className: 'img',
 									style: this.getStyle(pic7)
-									}}
+								}}
 								zoomImage={{
 									src: pic7,
 									alt: 'Same Image but largened'
@@ -190,7 +189,7 @@ class Gallery extends Component {
 									alt: 'Golden Gate Bridge',
 									className: 'img',
 									style: this.getStyle(pic8)
-									}}
+								}}
 								zoomImage={{
 									src: pic8,
 									alt: 'Same Image but largened'
@@ -206,7 +205,7 @@ class Gallery extends Component {
 									alt: 'Golden Gate Bridge',
 									className: 'img',
 									style: this.getStyle(pic9)
-									}}
+								}}
 								zoomImage={{
 									src: pic9,
 									alt: 'Same Image but largened'
@@ -220,7 +219,7 @@ class Gallery extends Component {
 									alt: 'Golden Gate Bridge',
 									className: 'img',
 									style: this.getStyle(pic10)
-									}}
+								}}
 								zoomImage={{
 									src: pic10,
 									alt: 'Same Image but largened'
@@ -234,7 +233,7 @@ class Gallery extends Component {
 									alt: 'Golden Gate Bridge',
 									className: 'img',
 									style: this.getStyle(pic11)
-									}}
+								}}
 								zoomImage={{
 									src: pic11,
 									alt: 'Same Image but largened'
@@ -248,7 +247,7 @@ class Gallery extends Component {
 									alt: 'Golden Gate Bridge',
 									className: 'img',
 									style: this.getStyle(pic12)
-									}}
+								}}
 								zoomImage={{
 									src: pic12,
 									alt: 'Same Image but largened'
@@ -262,7 +261,7 @@ class Gallery extends Component {
 									alt: 'Golden Gate Bridge',
 									className: 'img',
 									style: this.getStyle(pic13)
-									}}
+								}}
 								zoomImage={{
 									src: pic13,
 									alt: 'Same Image but largened'
@@ -276,7 +275,7 @@ class Gallery extends Component {
 									alt: 'Golden Gate Bridge',
 									className: 'img',
 									style: this.getStyle(pic14)
-									}}
+								}}
 								zoomImage={{
 									src: pic14,
 									alt: 'Same Image but largened'
@@ -290,7 +289,7 @@ class Gallery extends Component {
 									alt: 'Golden Gate Bridge',
 									className: 'img',
 									style: this.getStyle(pic15)
-									}}
+								}}
 								zoomImage={{
 									src: pic15,
 									alt: 'Same Image but largened'
@@ -304,19 +303,21 @@ class Gallery extends Component {
 									alt: 'Golden Gate Bridge',
 									className: 'img',
 									style: this.getStyle(pic16)
-									}}
+								}}
 								zoomImage={{
 									src: pic16,
 									alt: 'Same Image but largened'
 								}}
 							/>
-						</div>						
+						</div>
 					</div>
-				</div>
+				</div><br /><br />
 			</div>
 
 
-	    );
+		);
+
+
 	}
 }
 

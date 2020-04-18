@@ -4,6 +4,7 @@ class Gallery extends Component {
     render() {
 		return (
 			<div> GALLERY </div>
+
 	    );
 	}
 }

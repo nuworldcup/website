@@ -2,9 +2,32 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #fff;
+  scroll-behavior: smooth;
 }
 
-.calendar {
-	background-color: #87D0C9 !important ;
+/* Footer.js */
+.footer {
+	background-color: #212529; 
+	position: absolute;
+	width: 100%;
+}
+
+.footertext {
+	color: #fff;
+}
+
+/* Contact.js */
+
+.contactimg {
+	width: 80%;
+}
+
+/* Gallery */
+.carousel2-images {
+	width: 50%;
+}
+
+.gallerycarousel {
+	padding-top: 5em !important;
+	padding-bottom: 5em !important;
 }

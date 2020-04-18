@@ -13,19 +13,19 @@ import Calendar from './components/Calendar';
 import Footer from './components/Footer'
 
 
-class App extends Component { 
+class App extends Component {
   render() {
     return (
-    <div>
-    	<Navbar />
-    	<Switch>
-    		<Route path="/" exact component={Homepage}/>
-    		<Route path="/about" exact component={About}/>
-			<Route path="/gallery" exact component={Gallery}/>
-            <Route path="/calendar" exact component={Calendar}/> 
-	    </Switch>
+      <div>
+        <Navbar />
+        <Switch>
+          <Route path="/" exact component={Homepage} />
+          <Route path="/contact" exact component={Contact} />
+          <Route path="/gallery" exact component={Gallery} />
+          <Route path="/calendar" exact component={Calendar} />
+        </Switch>
         <Footer />
-    </div>
+      </div>
     );
   }
 }
