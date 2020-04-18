@@ -25,7 +25,7 @@ import galleryTitle from '../../assets/img/titles/gallery-title.png';
 // test for heroku
 
 class Gallery extends Component {
-	/* constructor(props) {
+	 constructor(props) {
 		super(props);
 		this.getStyle = this.getStyle.bind(this);
 	}
@@ -36,7 +36,7 @@ class Gallery extends Component {
 		} else {
 			return { width: '100%', borderStyle: 'solid', borderWidth: '1px', marginTop: '3em'}
 		}
-	} */
+	} 
 
     render() {
 
@@ -54,7 +54,7 @@ class Gallery extends Component {
 
 
 		// style={centerBox}
-		/* var centerBox = {
+		 var centerBox = {
 			height: '16em'
 		};
 
@@ -315,85 +315,7 @@ class Gallery extends Component {
 			</div>
 
 
-	    );*/
-
-	    return(
-	    	<div> 
-				<div id="carouselExampleControls" class="carousel slide carousel1-images carousel-center" data-ride="carousel">
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-						  <img class="w-100" src={pic1} alt="Picture 1" />
-						</div>
-						<div class="carousel-item">
-						  <img class="w-100" src={pic2} alt="Picture 2" />
-						</div>
-						<div class="carousel-item">
-						  <img class="w-100" src={pic3} alt="Picture 3" />
-						</div>
-						<div class="carousel-item">
-						  <img class="w-100" src={pic4} alt="Picture 4" />
-						</div>
-						<div class="carousel-item">
-						  <img class="w-100" src={pic5} alt="Picture 5" />
-						</div>
-						<div class="carousel-item">
-						  <img class="w-100" src={pic6} alt="Picture 6" />
-						</div>
-						<div class="carousel-item">
-						  <img class="w-100" src={pic7} alt="Picture 7" />
-						</div>
-						<div class="carousel-item">
-						  <img class="w-100" src={pic8} alt="Picture 8" />
-						</div>
-						<div class="carousel-item">
-						  <img class="w-100" src={pic9} alt="Picture 9" />
-						</div>
-						<div class="carousel-item">
-						  <img class="w-100" src={pic10} alt="Picture 10" />
-						</div>
-						<div class="carousel-item">
-						  <img class="w-100" src={pic11} alt="Picture 11" />
-						</div>
-						<div class="carousel-item">
-						  <img class="w-100" src={pic12} alt="Picture 12" />
-						</div>
-						<div class="carousel-item">
-						  <img class="w-100" src={pic13} alt="Picture 13" />
-						</div>
-						<div class="carousel-item">
-						  <img class="w-100" src={pic14} alt="Picture 14" />
-						</div>
-						<div class="carousel-item">
-						  <img class="w-100" src={pic15} alt="Picture 15" />
-						</div>
-						<div class="carousel-item">
-						  <img class="w-100" src={pic16} alt="Picture 16" />
-						</div>
-					</div>
-	               <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-		                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		                <span class="sr-only">Previous</span>
-	              </a>
-	              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-	                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	                <span class="sr-only">Next</span>
-	              </a>
-	            </div>
-	    	</div>
-
 	    );
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 	}
