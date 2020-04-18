@@ -90,6 +90,11 @@ html {
   
 }
 
+.gallery-header {
+  max-height: 30%;
+  max-width: 50%;
+}
+
 /*FAQ PAGE*/
 .map-div {
   height: 45vh;
