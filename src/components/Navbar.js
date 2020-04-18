@@ -11,8 +11,8 @@ class Navbar extends Component {
 					<Link className="navbar-brand" to={'/'}>
 						NU World Cup
 					</Link>
-					<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" 
-					aria-controls="#navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+					<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+						aria-controls="#navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 						<span className="navbar-toggler-icon"></span>
 					</button>
 
@@ -25,6 +25,9 @@ class Navbar extends Component {
 							</li>
 							<li className="nav-item">
 								<Link className="nav-link" to={'/gallery'}> Gallery </Link>
+							</li>
+							<li className="nav-item">
+								<Link className="nav-link" to={'/contact'}> Contact Us </Link>
 							</li>
 							{/*<li className="nav-item">
 								<Link className="nav-link" to={'/contact'}> Contact </Link>
