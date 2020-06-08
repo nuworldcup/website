@@ -29,19 +29,21 @@ class Homepage extends Component {
   render() {
     return (
       <div>
+        <p className='d-flex mainstatement'> Amidst the current struggles faced by the Black community in terms of police brutality and continued systemic racism in America, NU World Cup pledges to continue standing by the Black Lives Matter movement and what it represents. The club has held diversity as a central tenet since its inception within the International Students’ Association. This mission has continued to be of supreme importance, especially in a time where we can use our privilege to support those members of our society that are fighting for equality. The club has always held empowerment of marginalized groups to be central to our mission, and through our work with Gonzo soccer and organizations like it, we have worked to empower women in what ways we can. This desire to embolden those groups is, of course, highlighted in this time of such a powerful push for long-needed reform. The community within NU World Cup is one that is inclusive, understanding, and aware of the outcry for change and representation, and we wish to extend ourselves to the greatest extent possible.
+	We pledge to maintain continuous dialogue within the club about these difficult issues, provide members with resources for education from perspectives they may not have had access to, and we will welcome individuals and educators that are directly involved in the movement for seminar-style conversations about our role as allies to this powerful campaign for change. Ultimately, this is not simply a struggle for one group but one that we face as both a country and a global community. NU World Cup has always embodied a sense of unity across nationalities, ethnicities and creeds. We will continue to strive to create this inclusive culture and promote a dialogue conducive to progress and we will continue to do so in the face of adversity. </p>
         <div className='d-flex justify-content-center home-logo-div'>
           <img
             className='home-logo'
             src={logo}
-            alt={'Northwestern World Cup 2019'}/>
+            alt={'Northwestern World Cup 2019'} />
         </div>
         <div className='d-flex justify-content-center'>
           <p className='lead'> Community. Philanthropy. Soccer.</p>
         </div>
         <div className='d-flex justify-content-center'>
           <p className='lead'>
-            <Animationlink to="scrolltarget" smooth={true}  duration= {500}>
-              <img className="downarrow" src={downarrow} alt="Down arrow"/>
+            <Animationlink to="scrolltarget" smooth={true} duration={500}>
+              <img className="downarrow" src={downarrow} alt="Down arrow" />
             </Animationlink>
           </p>
         </div>
@@ -101,21 +103,21 @@ class Homepage extends Component {
         </div>
         <div className="flex-container panel1">
           <div className="container">
-              <img className="sponsorimg" src={subway}></img>
-              <img className="sponsorimg" src={fire}></img>
-              <img className="sponsorimg" src={kind}></img>
-              <img className="sponsorimg" src={monster}></img>
-              <img className="sponsorimg" src={redstars}></img>
-              <img className="sponsorimg" src={loop}></img>
-              <img className="sponsorbottomimg" src={president}></img>
+            <img className="sponsorimg" src={subway}></img>
+            <img className="sponsorimg" src={fire}></img>
+            <img className="sponsorimg" src={kind}></img>
+            <img className="sponsorimg" src={monster}></img>
+            <img className="sponsorimg" src={redstars}></img>
+            <img className="sponsorimg" src={loop}></img>
+            <img className="sponsorbottomimg" src={president}></img>
           </div>
           <div className="container">
             <p className="lead homepagetext">We're blessed to have partnered with a number of great companies in the last few years. World Cup
-              wouldn't be the same without our sponsors. 
+            wouldn't be the same without our sponsors.
             </p>
           </div>
         </div>
-      </div>
+      </div >
     )
   }
 }
