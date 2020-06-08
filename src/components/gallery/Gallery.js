@@ -79,6 +79,7 @@ class Gallery extends Component {
 				<PageTitle
 					image={galleryTitle}
 					alternate="Gallery"
+					className="gallery-header"
 				/>
 				<div className="container">
 					<div className="row">

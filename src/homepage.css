@@ -8,6 +8,17 @@
   max-height: 10vh;
 }
 
+.mainstatement {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
+  max-width: 75vw;
+  max-height: 50vw;
+  padding-bottom: 5px;
+  font-size: 1.5vw;
+}
+
 .gonzoimage {
   max-height: 45vh !important;
   max-width: 45vw !important;
@@ -34,9 +45,7 @@
   height: 30px;
 }
 
-.downarrowdiv {
 
-}
 
 .sponsorbottomimg {
   max-width: 100%;
