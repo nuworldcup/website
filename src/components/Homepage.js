@@ -9,7 +9,7 @@ import grouppic from '../assets/img/grouppic.jpeg';
 import futsal from '../assets/img/futsal-tourney/nuwcwinterfutsal-square.png'
 import mexico from '../assets/img/nuwcmxwhite.png'
 import nigeria from '../assets/img/nigerialogo.png'
-import korjap from '../assets/img/past-logos/korea-japan-logo.png'
+import italy from '../assets/img/past-logos/italylogo.png'
 import subway from '../assets/img/sponsors/2016/subway.jpg'
 import kind from '../assets/img/sponsors/2016/kind.jpg'
 import monster from '../assets/img/sponsors/2016/monster.jpg'
@@ -65,7 +65,7 @@ class Homepage extends Component {
                   <img className="w-100 carouselimg" src={mexico} alt="Third slide" />
                 </div>
                 <div className="carousel-item">
-                  <img className="w-100 carouselimg" src={korjap} alt="Fourth slide" />
+                  <img className="w-100 carouselimg" src={italy} alt="Fourth slide" />
                 </div>
               </div>
               <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

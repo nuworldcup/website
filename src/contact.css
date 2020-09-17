@@ -5,7 +5,7 @@
     display: -webkit-flex;     /* NEW - Chrome */
     display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
    }
-   
+
 .contact-content {
     -webkit-box-ordinal-group: 3;   /* OLD - iOS 6-, Safari 3.1-6 */
     -moz-box-ordinal-group: 3;      /* OLD - Firefox 19- */
@@ -14,12 +14,12 @@
     order: 3;                       /* NEW, Spec - Opera 13.1, Firefox 30+ */
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 5px;
+    padding-top: 25px;
     padding-bottom: 5px;
   }
-  
+
   .contact-content {
     width: 33%;
     height: 350px;
+    text-align: center;
   }
-  

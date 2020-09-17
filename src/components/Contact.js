@@ -12,17 +12,20 @@ class Contact extends Component {
 						<section class='contact-content'>
 							<h1>President</h1>
 							<img scr='...' alt='placeholder' />
-							<p>grantelliot2020@u.northwestern.edu</p>
+							<p>Vikram Manikantan</p>
+							<p><small>VikramManikantan2022@u.northwestern.edu</small></p>
 						</section>
 						<section class='contact-content'>
 							<h1>Vice President</h1>
 							<img src='...' alt='placeholder' />
-							<p>Sumer</p>
+							<p>Alvaro Matos</p>
+							<p><small>alvaromatos2021@u.northwestern.edu</small></p>
 						</section>
 						<section class='contact-content'>
 							<h1>Treasurer</h1>
 							<img src='...' alt='placeholder' />
-							<p>Madison Hora</p>
+							<p>Brandon Kyung</p>
+							<p><small>brandonkyung2022@u.northwestern.edu</small></p>
 						</section>
 						<br /> <br />
 					</div>
