@@ -3,11 +3,14 @@ import React, { Component } from 'react';
 class Footer extends Component {
     render() {
         return (
-            <div className="footer navbar">
-                <hr />
+            <div className="footer">
                 <footer>
-                    <div className="row">
-                        <div className="col-lg-12">
+                    <div className="row no-gutters">
+                        <div className="col-lg-6">
+                            <p className="feedbacktext">Got Feedback? Click
+                            <a href="https://forms.gle/SuMZUtWkcYf41nqN8" target="_blank"> Here</a></p>
+                        </div>
+                        <div className="col-lg-6">
                             <p className="footertext">Copyright &copy; NU World Cup 2020</p>
                         </div>
                     </div>
@@ -18,5 +21,3 @@ class Footer extends Component {
 }
 
 export default Footer;
-
-
