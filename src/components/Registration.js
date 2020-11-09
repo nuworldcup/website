@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Footer from './Footer';
 import wickedlogo from '../assets/img/wicked-cup/wickedcuplogosmall.png'
 
-class Registration extends React.Component{
+class Registration extends Component{
   render() {
     return(
     // <html>
@@ -29,7 +29,7 @@ class Registration extends React.Component{
           <br></br><br></br><br></br>
         </div>
       </div>
-  )
+  );
   }
 }
 

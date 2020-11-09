@@ -11,7 +11,7 @@ import Contact from './components/Contact';
 import Info from './components/Info';
 import Calendar from './components/Calendar';
 import Footer from './components/Footer';
-import Registration from './components/Registration'
+import Registration from './components/Registration';
 
 
 class App extends Component {
