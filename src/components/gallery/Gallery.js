@@ -54,13 +54,14 @@ class Gallery extends Component {
 
 
 		// style={centerBox}
-		var centerBox = {
-			height: '16em'
-		};
-
 		var colDiv = {
 			height: '100%'
 		}
+
+		/*
+		var centerBox = {
+			height: '16em'
+		};
 
 		var centerItem = {
 			objectFit: 'cover'
@@ -73,7 +74,8 @@ class Gallery extends Component {
 			marginTop: '3em',
 			marginBottom: '3em'
 		}
-
+		*/
+		
 		return (
 			<div>
 				<PageTitle

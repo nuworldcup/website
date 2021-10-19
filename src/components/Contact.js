@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import grouppic from '../assets/img/grouppic.jpeg';
 import '../contact.css'
-import prez from '../assets/img/vikram.jpg'
+import pres from '../assets/img/spencer.png'
+import vp from '../assets/img/carson.png'
+import sec from '../assets/img/chase.png'
+
+//import grouppic from '../assets/img/grouppic.jpeg';
 
 class Contact extends Component {
 	render() {
@@ -12,21 +15,21 @@ class Contact extends Component {
 					<div class='page-wrap'>
 						<section class='contact-content'>
 							<h1>President</h1>
-							<img src={prez} alt='placeholder' />
-							<p>Vikram Manikantan
-							<small> VikramManikantan2022@u.northwestern.edu</small></p>
+							<img src={pres} class = 'profilepic' alt = "Spencer Camp"/>
+							<p>Spencer Camp
+							<small> SpencerCamp2022@u.northwestern.edu</small></p>
 						</section>
 						<section class='contact-content'>
 							<h1>Vice President</h1>
-							<img src='...' alt='placeholder' />
-							<p>Alvaro Matos
-							<small> alvaromatos2021@u.northwestern.edu</small></p>
+							<img src={vp} class = 'profilepic' alt = "Carson Burton"/>
+							<p>Carson Burton
+							<small> CarsonBurton2023@u.northwestern.edu</small></p>
 						</section>
 						<section class='contact-content'>
 							<h1>Treasurer</h1>
-							<img src='...' alt='placeholder' />
-							<p>Brandon Kyung
-							<small> brandonkyung2022@u.northwestern.edu</small></p>
+							<img src={sec} class = 'profilepic' alt = "Chase Moralejo"/>
+							<p>Chase Moralejo
+							<small> ChaseMoralejo2022@u.northwestern.edu</small></p>
 						</section>
 						<br /> <br />
 					</div>

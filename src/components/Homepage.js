@@ -103,13 +103,13 @@ class Homepage extends Component {
         </div>
         <div className="flex-container panel1">
           <div className="container">
-            <img className="sponsorimg" src={subway}></img>
-            <img className="sponsorimg" src={fire}></img>
-            <img className="sponsorimg" src={kind}></img>
-            <img className="sponsorimg" src={monster}></img>
-            <img className="sponsorimg" src={redstars}></img>
-            <img className="sponsorimg" src={loop}></img>
-            <img className="sponsorbottomimg" src={president}></img>
+            <img className="sponsorimg" src={subway} alt="Subway"></img>
+            <img className="sponsorimg" src={fire} alt = "Chicago Fire"></img>
+            <img className="sponsorimg" src={kind} alt="Kind"></img>
+            <img className="sponsorimg" src={monster} alt="Monster"></img>
+            <img className="sponsorimg" src={redstars} alt="Chicago Red Stars"></img>
+            <img className="sponsorimg" src={loop} alt="Loop"></img>
+            <img className="sponsorbottomimg" src={president} alt="Office of the President"></img>
           </div>
           <div className="container">
             <p className="lead homepagetext">We're blessed to have partnered with a number of great companies in the last few years. World Cup

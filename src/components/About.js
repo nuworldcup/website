@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import title from '../assets/img/titles/about-title.png';
-import Footer from './Footer'
+
+//import Footer from './Footer'
 
 
 class About extends Component {
@@ -8,7 +9,7 @@ class About extends Component {
 		return (
 			<div className="container">
 				<div className="d-flex justify-content-center title-div">
-            		<img className="title" src={title} alt={"ABOUT"}/> 
+            		<img className="title" src={title} alt={"ABOUT"}/>
         		</div>
 	    		<div className="d-flex justify-content-center">
 	    			<p className="lead toptitle"> NU World Cup aims to bring people together through a common passion for soccer, and runs the largest student-run athletic event at Northwestern: a 500+ participant soccer tournament in the spring.</p>

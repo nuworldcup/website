@@ -8,7 +8,7 @@ class Footer extends Component {
                     <div className="row no-gutters">
                         <div className="col-lg-6">
                             <p className="feedbacktext">Got Feedback? Click
-                            <a href="https://forms.gle/SuMZUtWkcYf41nqN8" target="_blank"> Here</a></p>
+                            <a href="https://forms.gle/SuMZUtWkcYf41nqN8" target="_blank" rel="noopener noreferrer"> Here</a></p>
                         </div>
                         <div className="col-lg-6">
                             <p className="footertext">Copyright &copy; NU World Cup 2020</p>
