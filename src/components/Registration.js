@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Footer from './Footer';
-import wickedlogo from '../assets/img/wicked-cup/wickedcuplogosmall.png'
+
+//import Footer from './Footer';
+//import wickedlogo from '../assets/img/wicked-cup/wickedcuplogosmall.png'
 
 class Registration extends Component{
   render() {

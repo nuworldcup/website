@@ -43,10 +43,10 @@ class Navbar extends Component {
 					</div>
 					<div className="col-md-2">
 					<MDBContainer>
-					<a href="https://www.facebook.com/nuworldcup" target = "_blank" className= "fb-ic mr-3 fa-lg">
+					<a href="https://www.facebook.com/nuworldcup" target = "_blank"  rel="noopener noreferrer" className= "fb-ic mr-3 fa-lg">
 						<MDBIcon fab icon="facebook-f" />
 					</a>
-					<a href="https://www.instagram.com/nuworldcup/" target = "_blank" className="ins-ic mr-3 fa-lg pink-text">
+					<a href="https://www.instagram.com/nuworldcup/" target = "_blank"  rel="noopener noreferrer" className="ins-ic mr-3 fa-lg pink-text">
 						<MDBIcon fab icon="instagram" />
 					</a>
 					<a href="mailto:northwesternworldup@gmail.com" className="email-ic mr-3 fa-lg white-text">
