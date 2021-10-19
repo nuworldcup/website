@@ -5,7 +5,8 @@ import Homepage from './components/Homepage';
 import Gallery from './components/gallery/Gallery';
 import Contact from './components/Contact';
 import Calendar from './components/Calendar';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
+import Registration from './components/Registration';
 
 //import FAQ from './components/FAQ';
 //import About from './components/About';
@@ -19,10 +20,11 @@ class App extends Component {
       <div>
         <Navbar />
         <Switch>
-          <Route path="/" exact component={Homepage} />
+          <Route path="/registration" exact component={Registration} />
           <Route path="/contact" exact component={Contact} />
           <Route path="/gallery" exact component={Gallery} />
           <Route path="/calendar" exact component={Calendar} />
+          <Route path="/" exact component={Homepage} />
         </Switch>
         <Footer />
       </div>
