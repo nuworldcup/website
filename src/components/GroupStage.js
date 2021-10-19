@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import GroupScores from './GroupScores';
-import WomenGroup from './WomenGroup';
 import Group from './Group';
 import ThreeGroup from './ThreeGroup';
 import FiveGroup from './FiveGroup';
+
+//import WomenGroup from './WomenGroup';
 
 class GroupStage extends Component {
     render() {
@@ -72,10 +73,10 @@ class GroupStage extends Component {
 						<GroupScores team1="Brazil" flag1="br" team2="Kazakhstan" flag2="kz" tournament="co-rec" field="5" time="May 4, 1:20PM"/>
 						<GroupScores team1="Brazil" flag1="br" team2="China" flag2="cn" tournament="co-rec" field="4" time="May 4, 2:00PM"/>
 						<GroupScores team1="Kazakhstan" flag1="kz" team2="Vatican City" flag2="va" tournament="co-rec" field="5" time="May 4, 2:00PM"/>
-					
-						
-						
-						
+
+
+
+
 					</div>
 					<div className="group">
 						<div className="group-header">Group C</div>

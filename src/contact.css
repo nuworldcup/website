@@ -23,3 +23,8 @@
     height: 350px;
     text-align: center;
   }
+
+  .profilepic {
+    width: 100px;
+    height: 100px;
+  }
