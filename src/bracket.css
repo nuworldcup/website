@@ -1,0 +1,49 @@
+.bord-bottom {
+  border-bottom: 3px solid;
+  border-color: #da6914;
+}
+.bord-bottom-right {
+  border-bottom: 3px solid;
+  border-right: 3px solid;
+  border-color: #da6914;
+}
+.bord-bottom-left {
+  border-bottom: 3px solid;
+  border-left: 3px solid;
+  border-color: #da6914;
+}
+.bord-right {
+  border-right: 3px solid;
+  border-color: #da6914;
+}
+.bord-left {
+  border-left: 3px solid;
+  border-color: #da6914;
+}
+.bord-full {
+  border: 3px solid;
+  border-color: #da6914;
+}
+.t-center {
+  text-align: center;
+}
+.t-right{
+  text-align: right;
+}
+.label {
+  text-align: center;
+  font-weight: bold;
+}
+.col-4 {
+  font-size: 8pt;
+}
+.title-photo{
+  margin: auto;
+  display: block;
+  height: 30vh;
+  width: 25vw;
+}
+.bord-dotted{
+  border-bottom: 1px dashed;
+  border-color: grey;
+}

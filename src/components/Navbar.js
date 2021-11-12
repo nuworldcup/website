@@ -24,8 +24,11 @@ class Navbar extends Component {
 						</ul>
 						<ul className="navbar-nav">
 							<li className="nav-item">
-								<Link className="nav-link" to={'/registration'}> Registration </Link>
+								<Link className="nav-link" to={'/turkey'}> Brackets </Link>
 							</li>
+							{/*}<li className="nav-item">
+								<Link className="nav-link" to={'/registration'}> Registration </Link>
+							</li>*/}
 							<li className="nav-item">
 								<Link className="nav-link" to={'/calendar'}> Calendar </Link>
 							</li>
