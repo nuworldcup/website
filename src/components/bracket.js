@@ -12,127 +12,129 @@ class Bracket extends Component {
 				<div className="container">
 					<br />
 					<img src={turkey} class = "title-photo" alt = "Turkey Tourney"/>
-					<div class = "row">
+					<div class = "row title">
 						<div class = "col-12 t-center">
 							<h1>2021 Turkey Tourney</h1>
 						</div>
 					</div>
-					<div class = "row">
+					<div class = "row bracket-title">
 						<div class = "col-12">
 							<h2>Bracket:</h2>
 						</div>
 					</div>
-					<div class = "row ">
-						<div class = "col-2 bord-bottom">
-							Team 1
-						</div>
-						<div class = "col-8">
+					<div class = "container bracket">
+						<div class = "row ">
+							<div class = "col-2 bord-bottom">
+								Team 1
+							</div>
+							<div class = "col-8">
 
+							</div>
+							<div class = "col-2 bord-bottom t-right">
+								Team 5
+							</div>
 						</div>
-						<div class = "col-2 bord-bottom t-right">
-							Team 5
-						</div>
-					</div>
-					<div class = "row ">
-						<div class = "col-2 bord-right">
-						</div>
-						<div class = "col-2 bord-bottom">
-							TBD
-						</div>
-						<div class = "col-1">
+						<div class = "row ">
+							<div class = "col-2 bord-right">
+							</div>
+							<div class = "col-2 bord-bottom">
+								TBD
+							</div>
+							<div class = "col-1">
 
-						</div>
-						<div class = "col-2 bord-full t-center">
-							WINNER
-						</div>
-						<div class = "col-1">
+							</div>
+							<div class = "col-2 bord-full t-center">
+								WINNER
+							</div>
+							<div class = "col-1">
 
+							</div>
+							<div class = "col-2 bord-bottom t-right">
+								TBD
+							</div>
+							<div class = "col-2 bord-left">
+							</div>
 						</div>
-						<div class = "col-2 bord-bottom t-right">
-							TBD
-						</div>
-						<div class = "col-2 bord-left">
-						</div>
-					</div>
-					<div class = "row ">
-						<div class = "col-2 bord-bottom-right">
-							Team 2
-						</div>
-						<div class = "col-2 bord-right">
+						<div class = "row ">
+							<div class = "col-2 bord-bottom-right">
+								Team 2
+							</div>
+							<div class = "col-2 bord-right">
 
-						</div>
-						<div class = "col-4">
-						</div>
-						<div class = "col-2 bord-left">
+							</div>
+							<div class = "col-4">
+							</div>
+							<div class = "col-2 bord-left">
 
+							</div>
+							<div class = "col-2 bord-bottom-left t-right">
+								Team 6
+							</div>
 						</div>
-						<div class = "col-2 bord-bottom-left t-right">
-							Team 6
+						<div class = "row ">
+							<div class = "col-4">
+							</div>
+							<div class = "col-2 bord-bottom-right t-center">
+								TBD
+							</div>
+							<div class = "col-2 bord-bottom-left t-center">
+								TBD
+							</div>
+							<div class = "col-4">
+							</div>
 						</div>
-					</div>
-					<div class = "row ">
-						<div class = "col-4">
-						</div>
-						<div class = "col-2 bord-bottom-right t-center">
-							TBD
-						</div>
-						<div class = "col-2 bord-bottom-left t-center">
-							TBD
-						</div>
-						<div class = "col-4">
-						</div>
-					</div>
-					<div class = "row ">
-						<div class = "col-2 bord-bottom">
-							Team 3
-						</div>
-						<div class = "col-8">
+						<div class = "row ">
+							<div class = "col-2 bord-bottom">
+								Team 3
+							</div>
+							<div class = "col-8">
 
+							</div>
+							<div class = "col-2 bord-bottom t-right">
+								Team 7
+							</div>
 						</div>
-						<div class = "col-2 bord-bottom t-right">
-							Team 7
+						<div class = "row ">
+							<div class = "col-2 bord-right">
+							</div>
+							<div class = "col-2 bord-bottom-right">
+								TBD
+							</div>
+							<div class = "col-4">
+							</div>
+							<div class = "col-2 bord-bottom-left t-right">
+								TBD
+							</div>
+							<div class = "col-2 bord-left">
+							</div>
 						</div>
-					</div>
-					<div class = "row ">
-						<div class = "col-2 bord-right">
-						</div>
-						<div class = "col-2 bord-bottom">
-							TBD
-						</div>
-						<div class = "col-4">
-						</div>
-						<div class = "col-2 bord-bottom t-right">
-							TBD
-						</div>
-						<div class = "col-2 bord-left">
-						</div>
-					</div>
-					<div class = "row ">
-						<div class = "col-2 bord-bottom-right">
-							Team 4
-						</div>
-						<div class = "col-8">
+						<div class = "row ">
+							<div class = "col-2 bord-bottom-right">
+								Team 4
+							</div>
+							<div class = "col-8">
 
-						</div>
-						<div class = "col-2 bord-bottom-left t-right">
-							Team 8
+							</div>
+							<div class = "col-2 bord-bottom-left t-right">
+								Team 8
+							</div>
 						</div>
 					</div>
 					<br />
-					<div class = "row">
+					<div class = "row groups-title">
 						<div class = "col-12">
 							<h2>Group Stage:</h2>
 						</div>
 					</div>
 					<br/>
-					<div class = "row">
+					<div class = "row groups">
 						<div class = "col-3 bord-full">
-							<div class = "row t-center">
+							<div class = "row t-center bord-dotted">
 								<div class = "label col-12">
 										Group 1
 								</div>
 							</div>
-							<div class = "row">
+							<div class = "row bord-dotted">
 								<div class = "label col-4">
 									Name
 								</div>
@@ -143,9 +145,31 @@ class Bracket extends Component {
 									Points
 								</div>
 							</div>
-							<div class = "row">
+							<div class = "row bord-dotted">
 								<div class = "col-4 ">
-									Team 1
+									Bangers Only
+								</div>
+								<div class = "col-4 ">
+									0-0
+								</div>
+								<div class = "col-4 ">
+									0
+								</div>
+							</div>
+							<div class = "row bord-dotted">
+								<div class = "col-4 ">
+									Turtur keykey
+								</div>
+								<div class = "col-4 ">
+									0-0
+								</div>
+								<div class = "col-4 ">
+									0
+								</div>
+							</div>
+							<div class = "row bord-dotted">
+								<div class = "col-4 ">
+									Bayern Kickerz
 								</div>
 								<div class = "col-4 ">
 									0-0
@@ -156,29 +180,7 @@ class Bracket extends Component {
 							</div>
 							<div class = "row">
 								<div class = "col-4 ">
-									Team 2
-								</div>
-								<div class = "col-4 ">
-									0-0
-								</div>
-								<div class = "col-4 ">
-									0
-								</div>
-							</div>
-							<div class = "row">
-								<div class = "col-4 ">
-									Team 3
-								</div>
-								<div class = "col-4 ">
-									0-0
-								</div>
-								<div class = "col-4 ">
-									0
-								</div>
-							</div>
-							<div class = "row">
-								<div class = "col-4 ">
-									Team 4
+									Turkey Tuggers
 								</div>
 								<div class = "col-4 ">
 									0-0
@@ -189,12 +191,12 @@ class Bracket extends Component {
 							</div>
 						</div>
 						<div class = "col-3 bord-full">
-							<div class = "row t-center">
+							<div class = "row t-center bord-dotted">
 								<div class = "label col-12">
 										Group 2
 								</div>
 							</div>
-							<div class = "row">
+							<div class = "row bord-dotted">
 								<div class = "label col-4">
 									Name
 								</div>
@@ -205,9 +207,31 @@ class Bracket extends Component {
 									Points
 								</div>
 							</div>
-							<div class = "row">
+							<div class = "row bord-dotted">
 								<div class = "col-4 ">
-									Team 5
+									Footy Fellas
+								</div>
+								<div class = "col-4 ">
+									0-0
+								</div>
+								<div class = "col-4 ">
+									0
+								</div>
+							</div>
+							<div class = "row bord-dotted">
+								<div class = "col-4 ">
+									Kante's Smile
+								</div>
+								<div class = "col-4 ">
+									0-0
+								</div>
+								<div class = "col-4 ">
+									0
+								</div>
+							</div>
+							<div class = "row bord-dotted">
+								<div class = "col-4 ">
+									Man. Divided
 								</div>
 								<div class = "col-4 ">
 									0-0
@@ -218,29 +242,7 @@ class Bracket extends Component {
 							</div>
 							<div class = "row">
 								<div class = "col-4 ">
-									Team 6
-								</div>
-								<div class = "col-4 ">
-									0-0
-								</div>
-								<div class = "col-4 ">
-									0
-								</div>
-							</div>
-							<div class = "row">
-								<div class = "col-4 ">
-									Team 7
-								</div>
-								<div class = "col-4 ">
-									0-0
-								</div>
-								<div class = "col-4 ">
-									0
-								</div>
-							</div>
-							<div class = "row">
-								<div class = "col-4 ">
-									Team 8
+									VIAA
 								</div>
 								<div class = "col-4 ">
 									0-0
@@ -251,12 +253,12 @@ class Bracket extends Component {
 							</div>
 						</div>
 						<div class = "col-3 bord-full">
-							<div class = "row t-center">
+							<div class = "row t-center bord-dotted">
 								<div class = "label col-12">
 										Group 3
 								</div>
 							</div>
-							<div class = "row">
+							<div class = "row bord-dotted">
 								<div class = "label col-4">
 									Name
 								</div>
@@ -267,9 +269,9 @@ class Bracket extends Component {
 									Points
 								</div>
 							</div>
-							<div class = "row">
+							<div class = "row bord-dotted">
 								<div class = "col-4 ">
-									Team 9
+									Boat Friends
 								</div>
 								<div class = "col-4 ">
 									0-0
@@ -278,11 +280,22 @@ class Bracket extends Component {
 									0
 								</div>
 							</div>
-							<div class = "row">
-								<div class = "col-4 ">
-									Team 10
+							<div class = "row bord-dotted">
+								<div class = "col-4">
+									Sturdy Turkeys
 								</div>
-								<div class = "col-4 ">
+								<div class = "col-4">
+									0-0
+								</div>
+								<div class = "col-4">
+									0
+								</div>
+							</div>
+							<div class = "row bord-dotted">
+								<div class = "col-4">
+									Elder Lads
+								</div>
+								<div class = "col-4">
 									0-0
 								</div>
 								<div class = "col-4 ">
@@ -291,18 +304,7 @@ class Bracket extends Component {
 							</div>
 							<div class = "row">
 								<div class = "col-4 ">
-									Team 11
-								</div>
-								<div class = "col-4 ">
-									0-0
-								</div>
-								<div class = "col-4 ">
-									0
-								</div>
-							</div>
-							<div class = "row">
-								<div class = "col-4 ">
-									Team 12
+									Scrambled Meggz
 								</div>
 								<div class = "col-4 ">
 									0-0
@@ -313,12 +315,12 @@ class Bracket extends Component {
 							</div>
 						</div>
 						<div class = "col-3 bord-full">
-							<div class = "row t-center">
+							<div class = "row t-center bord-dotted">
 								<div class = "label col-12">
 										Group 4
 								</div>
 							</div>
-							<div class = "row">
+							<div class = "row bord-dotted">
 								<div class = "label col-4">
 									Name
 								</div>
@@ -329,9 +331,31 @@ class Bracket extends Component {
 									Points
 								</div>
 							</div>
-							<div class = "row">
+							<div class = "row bord-dotted">
 								<div class = "col-4 ">
-									Team 13
+									Toking Turkeys
+								</div>
+								<div class = "col-4 ">
+									0-0
+								</div>
+								<div class = "col-4 ">
+									0
+								</div>
+							</div>
+							<div class = "row bord-dotted">
+								<div class = "col-4 ">
+									Los Bros
+								</div>
+								<div class = "col-4 ">
+									0-0
+								</div>
+								<div class = "col-4 ">
+									0
+								</div>
+							</div>
+							<div class = "row bord-dotted">
+								<div class = "col-4 ">
+									Evanston Goons
 								</div>
 								<div class = "col-4 ">
 									0-0
@@ -342,29 +366,7 @@ class Bracket extends Component {
 							</div>
 							<div class = "row">
 								<div class = "col-4 ">
-									Team 14
-								</div>
-								<div class = "col-4 ">
-									0-0
-								</div>
-								<div class = "col-4 ">
-									0
-								</div>
-							</div>
-							<div class = "row">
-								<div class = "col-4 ">
-									Team 15
-								</div>
-								<div class = "col-4 ">
-									0-0
-								</div>
-								<div class = "col-4 ">
-									0
-								</div>
-							</div>
-							<div class = "row">
-								<div class = "col-4 ">
-									Team 16
+									Puzzles
 								</div>
 								<div class = "col-4 ">
 									0-0
