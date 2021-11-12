@@ -1,0 +1,45 @@
+.bord-bottom {
+  border-bottom: 3px solid;
+  border-color: orange;
+}
+.bord-bottom-right {
+  border-bottom: 3px solid;
+  border-right: 3px solid;
+  border-color: orange;
+}
+.bord-bottom-left {
+  border-bottom: 3px solid;
+  border-left: 3px solid;
+  border-color: orange;
+}
+.bord-right {
+  border-right: 3px solid;
+  border-color: orange;
+}
+.bord-left {
+  border-left: 3px solid;
+  border-color: orange;
+}
+.bord-full {
+  border: 3px solid;
+  border-color: orange;
+}
+.t-center {
+  text-align: center;
+}
+.t-right{
+  text-align: right;
+}
+.label {
+  text-align: center;
+  font-weight: bold;
+}
+.col-4 {
+  font-size: 8pt;
+}
+.title-photo{
+  margin: auto;
+  display: block;
+  height: 30vh;
+  width: 25vw;
+}

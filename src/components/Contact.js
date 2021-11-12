@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../contact.css'
-import pres from '../assets/img/spencer.png'
+import pres from '../assets/img/spencer.jpg'
 import vp from '../assets/img/carson.JPG'
 import sec from '../assets/img/chase.jpg'
 

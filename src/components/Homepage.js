@@ -29,8 +29,9 @@ class Homepage extends Component {
   render() {
     return (
       <div>
-        <p className='d-flex mainstatement'> Amidst the current struggles faced by the Black community in terms of police brutality and continued systemic racism in America, NU World Cup pledges to continue standing by the Black Lives Matter movement and what it represents. The club has held diversity as a central tenet since its inception within the International Students’ Association. This mission has continued to be of supreme importance, especially in a time where we can use our privilege to support those members of our society that are fighting for equality. The club has always held empowerment of marginalized groups to be central to our mission, and through our work with Gonzo soccer and organizations like it, we have worked to empower women in what ways we can. This desire to embolden those groups is, of course, highlighted in this time of such a powerful push for long-needed reform. The community within NU World Cup is one that is inclusive, understanding, and aware of the outcry for change and representation, and we wish to extend ourselves to the greatest extent possible.
-	We pledge to maintain continuous dialogue within the club about these difficult issues, provide members with resources for education from perspectives they may not have had access to, and we will welcome individuals and educators that are directly involved in the movement for seminar-style conversations about our role as allies to this powerful campaign for change. Ultimately, this is not simply a struggle for one group but one that we face as both a country and a global community. NU World Cup has always embodied a sense of unity across nationalities, ethnicities and creeds. We will continue to strive to create this inclusive culture and promote a dialogue conducive to progress and we will continue to do so in the face of adversity. </p>
+        {/*<p className='d-flex mainstatement'> Amidst the current struggles faced by the Black community in terms of police brutality and continued systemic racism in America, NU World Cup pledges to continue standing by the Black Lives Matter movement and what it represents. The club has held diversity as a central tenet since its inception within the International Students’ Association. This mission has continued to be of supreme importance, especially in a time where we can use our privilege   to support those members of our society that are fighting for equality. The club has always held empowerment of marginalized groups to be central to our mission, and through our work with Gonzo soccer and organizations like it, we have worked to empower women in what ways we can. This desire to embolden those groups is, of course, highlighted in this time of such a powerful push for long-needed reform. The community within NU World Cup is one that is inclusive, understanding, and aware of the outcry for change and representation, and we wish to extend ourselves to the greatest extent possible.
+	      We pledge to maintain continuous dialogue within the club about these difficult issues, provide members with resources for education from perspectives they may not have had access to, and we will welcome individuals and educators that are directly involved in the movement for seminar-style conversations about our role as allies to this powerful campaign for change. Ultimately, this is not simply a struggle for one group but one that we face as both a country and a global community. NU World Cup has always embodied a sense of unity across nationalities, ethnicities and creeds. We will continue to strive to create this inclusive culture and promote a dialogue conducive to progress and we will continue to do so in the face of adversity.
+        </p>*/}
         <div className='d-flex justify-content-center home-logo-div'>
           <img
             className='home-logo'
@@ -79,7 +80,7 @@ class Homepage extends Component {
             </div>
           </div>
         </div>
-        <div className="flex-container">
+        {/*<div className="flex-container">
           <div className="container">
             <img className='home-logo center gonzoimage' alt='gonzo' src={gonzo}></img>
           </div>
@@ -89,7 +90,7 @@ class Homepage extends Component {
             with Gonzo to provide the girls academic mentorship. Check them out <a href="https://www.facebook.com/GONZOsoccer/">here</a>!
             </p>
           </div>
-        </div>
+        </div>*/}
         <div className="flex-container panel4">
           <div className="container containerhomepg">
             <p className="lead homepagetext">World Cup recruits freshmen, sophomores, juniors, and seniors

@@ -7,6 +7,8 @@ import Contact from './components/Contact';
 import Calendar from './components/Calendar';
 import Footer from './components/Footer';
 import Registration from './components/Registration';
+import Bracket from './components/bracket';
+
 
 //import FAQ from './components/FAQ';
 //import About from './components/About';
@@ -25,6 +27,7 @@ class App extends Component {
           <Route path="/gallery" exact component={Gallery} />
           <Route path="/calendar" exact component={Calendar} />
           <Route path="/" exact component={Homepage} />
+          <Route path="/turkey" exact component={Bracket} />
         </Switch>
         <Footer />
       </div>
