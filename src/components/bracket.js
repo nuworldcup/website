@@ -25,13 +25,13 @@ class Bracket extends Component {
 					<div class = "container bracket">
 						<div class = "row ">
 							<div class = "col-2 bord-bottom">
-								Team 1
+								Turturkeykey
 							</div>
 							<div class = "col-8">
 
 							</div>
 							<div class = "col-2 bord-bottom t-right">
-								Team 5
+								Toking Turkeys
 							</div>
 						</div>
 						<div class = "row ">
@@ -57,7 +57,7 @@ class Bracket extends Component {
 						</div>
 						<div class = "row ">
 							<div class = "col-2 bord-bottom-right">
-								Team 2
+								VIAA
 							</div>
 							<div class = "col-2 bord-right">
 
@@ -68,7 +68,7 @@ class Bracket extends Component {
 
 							</div>
 							<div class = "col-2 bord-bottom-left t-right">
-								Team 6
+								Sturdy Turkeys
 							</div>
 						</div>
 						<div class = "row ">
@@ -85,13 +85,13 @@ class Bracket extends Component {
 						</div>
 						<div class = "row ">
 							<div class = "col-2 bord-bottom">
-								Team 3
+								Manchester Divided
 							</div>
 							<div class = "col-8">
 
 							</div>
 							<div class = "col-2 bord-bottom t-right">
-								Team 7
+								Elder Lads
 							</div>
 						</div>
 						<div class = "row ">
@@ -110,13 +110,13 @@ class Bracket extends Component {
 						</div>
 						<div class = "row ">
 							<div class = "col-2 bord-bottom-right">
-								Team 4
+								Bangers Only
 							</div>
 							<div class = "col-8">
 
 							</div>
 							<div class = "col-2 bord-bottom-left t-right">
-								Team 8
+								Puzzles
 							</div>
 						</div>
 					</div>
@@ -223,7 +223,7 @@ class Bracket extends Component {
 									Kante's Smile
 								</div>
 								<div class = "col-4 ">
-									1-1
+									1-2
 								</div>
 								<div class = "col-4 ">
 									3
@@ -234,10 +234,10 @@ class Bracket extends Component {
 									Man. Divided
 								</div>
 								<div class = "col-4 ">
-									2-0
+									3-0
 								</div>
 								<div class = "col-4 ">
-									6
+									9
 								</div>
 							</div>
 							<div class = "row">
@@ -274,7 +274,7 @@ class Bracket extends Component {
 									Boat Friends
 								</div>
 								<div class = "col-4 ">
-									1-1
+									1-2
 								</div>
 								<div class = "col-4 ">
 									3
@@ -285,10 +285,10 @@ class Bracket extends Component {
 									Sturdy Turkeys
 								</div>
 								<div class = "col-4">
-									1-1
+									2-1
 								</div>
 								<div class = "col-4">
-									3
+									6
 								</div>
 							</div>
 							<div class = "row bord-dotted">
@@ -296,10 +296,10 @@ class Bracket extends Component {
 									Elder Lads
 								</div>
 								<div class = "col-4">
-									2-0
+									3-0
 								</div>
 								<div class = "col-4 ">
-									6
+									9
 								</div>
 							</div>
 							<div class = "row">
@@ -307,7 +307,7 @@ class Bracket extends Component {
 									Scrambled Meggz
 								</div>
 								<div class = "col-4 ">
-									0-2
+									0-3
 								</div>
 								<div class = "col-4 ">
 									0
@@ -336,10 +336,10 @@ class Bracket extends Component {
 									Toking Turkeys
 								</div>
 								<div class = "col-4 ">
-									1-1-0
+									2-1-0
 								</div>
 								<div class = "col-4 ">
-									4
+									7
 								</div>
 							</div>
 							<div class = "row bord-dotted">
@@ -347,7 +347,7 @@ class Bracket extends Component {
 									Los Bros
 								</div>
 								<div class = "col-4 ">
-									1-1
+									1-2
 								</div>
 								<div class = "col-4 ">
 									3
@@ -358,7 +358,7 @@ class Bracket extends Component {
 									Evanston Goons
 								</div>
 								<div class = "col-4 ">
-									0-2
+									0-3
 								</div>
 								<div class = "col-4 ">
 									0
@@ -369,10 +369,10 @@ class Bracket extends Component {
 									Puzzles
 								</div>
 								<div class = "col-4 ">
-									1-1-0
+									2-1-0
 								</div>
 								<div class = "col-4 ">
-									4
+									7
 								</div>
 							</div>
 						</div>
