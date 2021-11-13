@@ -44,7 +44,7 @@ class Bracket extends Component {
 
 							</div>
 							<div class = "col-2 bord-full t-center">
-								WINNER
+								Puzzles
 							</div>
 							<div class = "col-1">
 
@@ -75,10 +75,10 @@ class Bracket extends Component {
 							<div class = "col-4">
 							</div>
 							<div class = "col-2 bord-bottom-right t-center">
-								TBD
+								Puzzles
 							</div>
 							<div class = "col-2 bord-bottom-left t-center">
-								TBD
+								Viaa
 							</div>
 							<div class = "col-4">
 							</div>
@@ -103,7 +103,7 @@ class Bracket extends Component {
 							<div class = "col-4">
 							</div>
 							<div class = "col-2 bord-bottom-left t-right">
-								TBD
+								VIAA
 							</div>
 							<div class = "col-2 bord-left">
 							</div>
