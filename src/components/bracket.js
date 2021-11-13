@@ -31,7 +31,7 @@ class Bracket extends Component {
 
 							</div>
 							<div class = "col-2 bord-bottom t-right">
-								Toking Turkeys
+								3 - Toking Turkeys
 							</div>
 						</div>
 						<div class = "row ">
@@ -50,7 +50,7 @@ class Bracket extends Component {
 
 							</div>
 							<div class = "col-2 bord-bottom t-right">
-								TBD
+								Toking Turkeys
 							</div>
 							<div class = "col-2 bord-left">
 							</div>
@@ -68,7 +68,7 @@ class Bracket extends Component {
 
 							</div>
 							<div class = "col-2 bord-bottom-left t-right">
-								Sturdy Turkeys
+								2 - Sturdy Turkeys
 							</div>
 						</div>
 						<div class = "row ">
@@ -98,12 +98,12 @@ class Bracket extends Component {
 							<div class = "col-2 bord-right">
 							</div>
 							<div class = "col-2 bord-bottom-right">
-								TBD
+								Bangers Only
 							</div>
 							<div class = "col-4">
 							</div>
 							<div class = "col-2 bord-bottom-left t-right">
-								TBD
+								Puzzles
 							</div>
 							<div class = "col-2 bord-left">
 							</div>
