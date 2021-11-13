@@ -150,10 +150,10 @@ class Bracket extends Component {
 									Bangers Only
 								</div>
 								<div class = "col-4 ">
-									0-1
+									0-1-1
 								</div>
 								<div class = "col-4 ">
-									0
+									1
 								</div>
 							</div>
 							<div class = "row bord-dotted">
@@ -161,7 +161,7 @@ class Bracket extends Component {
 									Turtur keykey
 								</div>
 								<div class = "col-4 ">
-									1-0
+									1-1
 								</div>
 								<div class = "col-4 ">
 									3
@@ -172,10 +172,10 @@ class Bracket extends Component {
 									Bayern Kickerz
 								</div>
 								<div class = "col-4 ">
-									0-0
+									0-2-0
 								</div>
 								<div class = "col-4 ">
-									0
+									2
 								</div>
 							</div>
 							<div class = "row">
@@ -183,10 +183,10 @@ class Bracket extends Component {
 									Turkey Tuggers
 								</div>
 								<div class = "col-4 ">
-									0-0
+									1-1-0
 								</div>
 								<div class = "col-4 ">
-									0
+									4
 								</div>
 							</div>
 						</div>
@@ -212,7 +212,7 @@ class Bracket extends Component {
 									Footy Fellas
 								</div>
 								<div class = "col-4 ">
-									0-0
+									0-1
 								</div>
 								<div class = "col-4 ">
 									0
@@ -223,7 +223,7 @@ class Bracket extends Component {
 									Kante's Smile
 								</div>
 								<div class = "col-4 ">
-									0-0
+									0-1
 								</div>
 								<div class = "col-4 ">
 									0
@@ -234,10 +234,10 @@ class Bracket extends Component {
 									Man. Divided
 								</div>
 								<div class = "col-4 ">
-									0-0
+									1-0
 								</div>
 								<div class = "col-4 ">
-									0
+									3
 								</div>
 							</div>
 							<div class = "row">
@@ -245,10 +245,10 @@ class Bracket extends Component {
 									VIAA
 								</div>
 								<div class = "col-4 ">
-									0-0
+									1-0
 								</div>
 								<div class = "col-4 ">
-									0
+									3
 								</div>
 							</div>
 						</div>
@@ -274,7 +274,7 @@ class Bracket extends Component {
 									Boat Friends
 								</div>
 								<div class = "col-4 ">
-									1-0
+									1-1
 								</div>
 								<div class = "col-4 ">
 									3
@@ -285,10 +285,10 @@ class Bracket extends Component {
 									Sturdy Turkeys
 								</div>
 								<div class = "col-4">
-									0-1
+									1-1
 								</div>
 								<div class = "col-4">
-									0
+									3
 								</div>
 							</div>
 							<div class = "row bord-dotted">
@@ -296,10 +296,10 @@ class Bracket extends Component {
 									Elder Lads
 								</div>
 								<div class = "col-4">
-									1-0
+									2-0
 								</div>
 								<div class = "col-4 ">
-									3
+									6
 								</div>
 							</div>
 							<div class = "row">
@@ -307,7 +307,7 @@ class Bracket extends Component {
 									Scrambled Meggz
 								</div>
 								<div class = "col-4 ">
-									0-1
+									0-2
 								</div>
 								<div class = "col-4 ">
 									0
@@ -336,10 +336,10 @@ class Bracket extends Component {
 									Toking Turkeys
 								</div>
 								<div class = "col-4 ">
-									0-0
+									0-1-0
 								</div>
 								<div class = "col-4 ">
-									0
+									1
 								</div>
 							</div>
 							<div class = "row bord-dotted">
@@ -369,10 +369,10 @@ class Bracket extends Component {
 									Puzzles
 								</div>
 								<div class = "col-4 ">
-									0-0
+									0-1-0
 								</div>
 								<div class = "col-4 ">
-									0
+									1
 								</div>
 							</div>
 						</div>
