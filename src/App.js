@@ -27,7 +27,6 @@ class App extends Component {
           <Route path="/gallery" exact component={Gallery} />
           <Route path="/calendar" exact component={Calendar} />
           <Route path="/" exact component={Homepage} />
-          <Route path="/turkey" exact component={Bracket} />
         </Switch>
         <Footer />
       </div>
